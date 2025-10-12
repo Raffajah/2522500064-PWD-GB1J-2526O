@@ -10,5 +10,6 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Membuat styling selection ID #About Strong <li>
 <li> Membuat styling selection ID #About mode mobile <li>
 <li> Membuat styling selection #Contact<li>
-<li> embuat styling selection #Contact h2 <li>
+<li> Membuat styling selection #Contact h2 <li>
+<li> Membuat styling selection Form <li>
 <ol>
