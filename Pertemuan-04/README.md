@@ -9,4 +9,5 @@ Hari ini Sabtu 18 Oktober 2025 , saya belajar<ol>
 <li> styling header mode mobile<li>
 <li> styling navigasi mobile<li>
 <li> menambah gif <li>
+<li> styling css clas ke gif dan mengatur gif ke bentuk profile<li>
 <ol>
