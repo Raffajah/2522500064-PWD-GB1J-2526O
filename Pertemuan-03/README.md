@@ -26,4 +26,6 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Styling contact button <li>
 <li> Styling contact warna button <li>
 <li> Styling contact warna button hover <li>
+<li> Styling contact label dan label>span <li>
+<li> Styling contact input , textarea , button <li>
 <ol>
