@@ -19,4 +19,5 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Membuat selection contact mode mobile <li>
 <li> Memperbaiki styling contact <li>
 <li> Group styling about dan contact<li>
+<li> Group styling about h2 dan contact h2<li>
 <ol>
