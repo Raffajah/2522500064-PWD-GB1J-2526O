@@ -22,4 +22,6 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Group styling about h2 dan contact h2<li>
 <li> Group styling about p dan contact label<li>
 <li> Group styling about strong dan contact label span sekaligus update struktur form<li>
+<li> Styling input dan textarea<li>
+<li> Styling contact button <li>
 <ol>
