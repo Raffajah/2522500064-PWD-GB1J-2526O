@@ -6,3 +6,5 @@ Hari ini Sabtu 18 Oktober 2025 , saya belajar<ol>
 <li> styling header <li>
 <li> styling home<li>
 <li> styling navigasi<li>
+<li> styling header mode mobile<li>
+<ol>

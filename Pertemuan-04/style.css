@@ -92,8 +92,13 @@
             padding-right: 0;
             margin-bottom: 2px;
         }
-
         #contact input, #contact textarea, #contact button { width: 100%;}
+        header {
+            padding: 16px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
     }
 
     #contact input , #contact textarea {
