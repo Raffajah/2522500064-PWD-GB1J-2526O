@@ -27,12 +27,23 @@
         padding: 6px 12px;
     }
  
+    header li a:hover {
+        background-color: black;
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+    }
+    header li a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    }
+    header li a:active {
+    background-color: #13d4ff;
+    transform: translateY(1px);
+    }
     #home p {text-align: center;}
 
-    
- 
- 
- 
  #about, #contact, #home {
         background-color: #88c2de;
         border-radius: 10px;
@@ -130,8 +141,9 @@
     transform: translateY(-1px);
     }
  
-    footer>p{
+    footer{
+        background: black;
+        color: #aaa;
+        padding: 10px;
         text-align: center;
     }
-
-    
