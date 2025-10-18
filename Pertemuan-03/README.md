@@ -17,4 +17,6 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Membuat styling selection Button <li>
 <li> Menambah warna pada button <li>
 <li> Membuat selection contact mode mobile <li>
+<li> Memperbaiki styling contact <li>
+<li> Group styling about dan contact<li>
 <ol>
