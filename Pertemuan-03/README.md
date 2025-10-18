@@ -20,4 +20,5 @@ Hari ini Rabu 09 Oktober 2025 , saya belajar<ol>
 <li> Memperbaiki styling contact <li>
 <li> Group styling about dan contact<li>
 <li> Group styling about h2 dan contact h2<li>
+<li> Group styling about p dan contact label<li>
 <ol>
