@@ -12,7 +12,7 @@
         background: blue;
         color: white;
         padding: 20px;
-        text-align: center;
+       text-align: center;
     }
     header ul {
         display: flex;
@@ -27,6 +27,9 @@
         padding: 6px 12px;
     }
  
+   
+
+
     header li a:hover {
         background-color: black;
         border-radius: 6px;
@@ -171,4 +174,26 @@ backdrop-filter: saturate(120%);
         color: #aaa;
         padding: 10px;
         text-align: center;
+    }
+
+
+    .headercontainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .headercontainer h1 {
+        margin: 0;
+        color: white;
+        font-size: 24px;
+    }
+
+    .miku {
+        width: 60px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 0 10px white;
+
     }
