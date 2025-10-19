@@ -138,7 +138,39 @@ backdrop-filter: saturate(120%);
             top: 0;
             z-index: 1000;
         }
+
+        .headercontainer {
+             flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px; 
+    padding: 0 10px;
+        }
         
+.headercontainer h1 {
+     margin-right: 10px;
+    text-align: left;
+    flex: 1;
+}
+
+.kanan
+{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.miku {
+    width: 70px;
+    height: auto;
+}
+
+.headercontainer button {
+    padding: 5px 10px;
+    font-size: 14px;
+
+}
+
     }
 
     #contact input , #contact textarea {
