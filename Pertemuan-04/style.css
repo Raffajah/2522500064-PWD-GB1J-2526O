@@ -6,7 +6,15 @@
     color: #333;
     line-height: 1.5;
     }
+header>div>h1 { 
 
+    width: 200px;
+    height: 50px;
+    padding: 10px 5px;
+    border-radius: 6px;
+    box-shadow: 6px 6px 10px rgb(148, 226, 255), 6px 6px 10px rgb(148, 226, 255);
+    background-color: #3bc8e8;
+    color: #000;}
 
     header {
         background: rgb(32, 112, 224);
@@ -200,7 +208,7 @@ backdrop-filter: saturate(120%);
         width: 60px;
         height: auto;
         border-radius: 50%;
-        box-shadow: 0 0 20px white;
+        box-shadow: 0 0 20px rgb(0, 0, 0);
 
     }
    
