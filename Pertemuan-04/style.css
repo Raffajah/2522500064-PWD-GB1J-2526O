@@ -2,10 +2,15 @@
     
     body { margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: rgb(61, 174, 239);
+    background-image: url(png-for-mesmerizer-v0-v826kvz0qtid1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #333;
     line-height: 1.5;
     }
+
 header>div>h1 { 
 
     width: 200px;
@@ -79,7 +84,7 @@ backdrop-filter: saturate(120%);
     #home p {text-align: center;}
 
  #about, #contact, #home {
-        background-color: #88c2de;
+        backdrop-filter: blur(10px);
         border-radius: 10px;
         padding: 20px;
         max-width: 700px;
