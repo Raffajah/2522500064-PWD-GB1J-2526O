@@ -11,4 +11,5 @@ Hari ini Sabtu 18 Oktober 2025 , saya belajar<ol>
 <li> menambah gif <li>
 <li> styling css clas ke gif dan mengatur gif ke bentuk profile<li>
 <li> styling button menjadi glowing<li>
+<li> styling box shadow<li>
 <ol>
