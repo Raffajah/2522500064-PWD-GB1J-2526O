@@ -138,7 +138,6 @@ backdrop-filter: saturate(120%);
             top: 0;
             z-index: 1000;
         }
-
         
     }
 
@@ -208,6 +207,29 @@ backdrop-filter: saturate(120%);
         padding: 10px 20px;
     }
 
+    .headercontainer h1 {
+        margin: 0 auto;
+        text-align: left;
+        margin-left: 10px;
+        color: rgb(0, 0, 0);
+    }
+
+.headercontainer button {
+     background-color: #3bc8e8;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 6px 6px 10px rgb(148, 226, 255);
+  font-weight: bold;
+}
+
+.headercontainer button:hover{
+    background-color: #32a0d6;
+  color: white;
+}
+
      .miku {
         width: 60px;
         height: auto;
@@ -216,5 +238,10 @@ backdrop-filter: saturate(120%);
 
     }
 
+.kanan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
+}
     
