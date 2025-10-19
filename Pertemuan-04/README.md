@@ -10,4 +10,5 @@ Hari ini Sabtu 18 Oktober 2025 , saya belajar<ol>
 <li> styling navigasi mobile<li>
 <li> menambah gif <li>
 <li> styling css clas ke gif dan mengatur gif ke bentuk profile<li>
+<li> styling button menjadi glowing<li>
 <ol>
