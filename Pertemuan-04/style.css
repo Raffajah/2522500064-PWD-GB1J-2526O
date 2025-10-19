@@ -1,12 +1,8 @@
     * { box-sizing: border-box;}
     
     body { margin: 0;
+    background: rgb(61, 174, 239);
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(png-for-mesmerizer-v0-v826kvz0qtid1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
     color: #333;
     line-height: 1.5;
     }
@@ -84,7 +80,7 @@ backdrop-filter: saturate(120%);
     #home p {text-align: center;}
 
  #about, #contact, #home {
-        backdrop-filter: blur(10px);
+        background-color: #88c2de;
         border-radius: 10px;
         padding: 20px;
         max-width: 700px;
@@ -142,6 +138,8 @@ backdrop-filter: saturate(120%);
             top: 0;
             z-index: 1000;
         }
+
+        
     }
 
     #contact input , #contact textarea {
@@ -217,4 +215,6 @@ backdrop-filter: saturate(120%);
         box-shadow: 0 0 20px rgb(0, 0, 0);
 
     }
-   
+
+
+    
