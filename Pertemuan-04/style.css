@@ -1,26 +1,17 @@
+
     * { box-sizing: border-box;}
     
     body { margin: 0;
-    background: rgb(61, 174, 239);
+    background: rgb(8, 46, 67);
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     line-height: 1.5;
     }
 
-header>div>h1 { 
-
-    width: 200px;
-    height: 50px;
-    padding: 10px 5px;
-    border-radius: 6px;
-    box-shadow: 6px 6px 10px rgb(148, 226, 255), 6px 6px 10px rgb(148, 226, 255);
-    background-color: #3bc8e8;
-    color: #000;}
-
     header {
-        background: rgb(32, 112, 224);
+        background: rgb(6, 55, 125);
         color: white;
-        padding: 5px;
+        padding: 20px;
         text-align: center;
     }
     header ul {
@@ -36,8 +27,7 @@ header>div>h1 {
         padding: 6px 12px;
     }
  
-   
-
+ #home p { text-align: justify;}
 
     header li a:hover {
         box-shadow: 5px 5px 20px aqua,
@@ -80,14 +70,22 @@ backdrop-filter: saturate(120%);
     #home p {text-align: center;}
 
  #about, #contact, #home {
-        background-color: #88c2de;
         border-radius: 10px;
+        background: linear-gradient(45deg , #03d1ff, #005464, #0044fe, #0303ff, #13006f  );
+        background-size: 800%;
+        animation:  wave 4s ease infinite;
         padding: 20px;
         max-width: 700px;
         margin: 20px auto;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         text-align: center;
     }
+    @keyframes wave {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 50% 100%;}
+        100% {background-position: 0% 50%;}
+    }
+
 
 #home, #about, #contact {
     box-shadow: 6px 6px 20px rgb(0, 0, 0), 6px 6px 20px blue;
@@ -107,7 +105,7 @@ backdrop-filter: saturate(120%);
         align-items: baseline;
         margin: 0;
         padding: 6px 0;
-        border-bottom: 1px solid #e6e6e6;
+        border-bottom: 1px solid #000000;
     
     }
 
@@ -149,31 +147,16 @@ backdrop-filter: saturate(120%);
     
         }
         
-    .headercontainer h1 {
-        margin-right: 10px;
-        text-align: left;
-        flex: 1;
-        font-size: 15px;
-        padding-top: 14px;
-    }
+.headercontainer h1 {
+     margin-right: 10px;
+    text-align: left;
+    flex: 1;
+}
 
-    .kanan
-    {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .miku {
-        width: 70px;
-        height: auto;
-    }
-
-    .headercontainer button {
-        padding: 5px 10px;
-        font-size: 14px;
-
-    }
+.miku {
+    width: 70px;
+    height: auto;
+}
 
     }
 
@@ -247,24 +230,8 @@ backdrop-filter: saturate(120%);
         margin: 0 auto;
         text-align: left;
         margin-left: 10px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
-
-.headercontainer button {
-     background-color: #3bc8e8;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 15px;
-  color: black;
-  cursor: pointer;
-  box-shadow: 6px 6px 10px rgb(148, 226, 255);
-  font-weight: bold;
-}
-
-.headercontainer button:hover{
-    background-color: #32a0d6;
-  color: white;
-}
 
      .miku {
         width: 60px;
@@ -272,12 +239,4 @@ backdrop-filter: saturate(120%);
         border-radius: 50%;
         box-shadow: 0 0 20px rgb(0, 0, 0);
 
-    }
-
-.kanan {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-}
-    
+     }
