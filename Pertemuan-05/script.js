@@ -1,12 +1,17 @@
 document.getElementById("menutoggle").addEventListener("click", function()
-{
-const nav = document.querySelector("nav");
+{const nav = document.querySelector("nav");
 nav.classList.toggle("active");
 if (nav.classList.contains("active")) {
 this.textContent = "\u2716";
 } else {
 this.textContent = "\u2630";
-}
+}});
+
+document.addEventListener("DOMContentLoaded", function () {
+const homeSection = document.getElementById("home");
+const ucapan = document.createElement("p");
+ucapan.textContent = "Halo Semua! Selamat datang di halaman saya!";
+homeSection.appendChild(ucapan);
 });
 
 document.querySelector("form").addEventListener("submit", function (e) {
