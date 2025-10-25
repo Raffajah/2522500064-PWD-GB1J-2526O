@@ -12,4 +12,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menambah pesan di java<li>
 <li> memperbaiki tombol beranda tentang dan kontak<li>
 <li> menambah submit form dan input form<li>
+<li> menambah inisialisasi validasi<li>
 <ol>
