@@ -31,10 +31,11 @@
         display: none;
         background: none;
         border: none;
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 28px;
         cursor: pointer;
         z-index: 2000;
+       
     }
  
  #home p { text-align: justify;}
@@ -179,6 +180,7 @@ backdrop-filter: saturate(120%);
                     top: 8px;
                     z-index: 2000;
                     transition: transform 0.4s ease;
+                    
                 }
 
                 .menu-togle:hover {
