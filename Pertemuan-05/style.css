@@ -212,6 +212,33 @@ backdrop-filter: saturate(120%);
                 
                 }
 
+                @media (min-width: 601px) {
+                header ul {
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    margin: 10px 0 0;
+                }
+
+                header li a {
+                    display: inline-block;
+                    border-radius: 6px;
+                    padding: 10px 15px;
+                    border: 1px solid rgba(255, 255, 255, 0.35);
+                    background: rgba(255, 255, 255, 0.08);
+                    transition: all 0.3s ease;
+                }
+
+                .menu-togle {
+                    display: none; 
+                }
+
+                nav {
+                    display: flex;
+                    justify-content: center;
+                }
+                }
     #contact input , #contact textarea {
     flex: 1;
     border: 1px solid;
@@ -233,9 +260,6 @@ backdrop-filter: saturate(120%);
     transition: all 0.3s ease;
     margin-right: 8px;
     }
-
-    
-
   #contact button[type="submit"]{
     background-color: #0f69c3;
     color:#fff ;
@@ -290,5 +314,5 @@ backdrop-filter: saturate(120%);
         height: auto;
         border-radius: 50%;
         box-shadow: 0 0 20px rgb(0, 0, 0);
-
      }
+    
