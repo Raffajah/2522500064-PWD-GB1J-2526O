@@ -14,6 +14,12 @@ ucapan.textContent = "Halo Semua! Selamat datang di halaman saya!";
 homeSection.appendChild(ucapan);
 });
 
+document.getElementById("txtPesan").addEventListener("input", function () {
+const panjang = this.value.length;
+document.getElementById("charCount").textContent = panjang + "/200 Karakter";
+});
+
+
 document.querySelector("form").addEventListener("submit", function (e) {
  const nama = document.getElementById("txtNama");
 const email = document.getElementById("txtEmail");

@@ -22,4 +22,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menyesuaikan posisi eror saat layar berubah<li>
 <li> styling tombol hamburger menjadi tombol silang saat active<li>
 <li> menambah kalimat sambutan otomatis<li>
+<li> menambah batasan kalimat pesan<li>
 <ol>
