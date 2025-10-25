@@ -128,46 +128,53 @@ backdrop-filter: saturate(120%);
         flex-shrink: 0;
     }
 
-     @media (max-width: 600px) {
-        #about p, #contact label {
-            flex-direction: column;
-            align-items: flex-start;
-        }
-        #about strong, #contact label>span  {
-            text-align: left;
-            padding-right: 0;
-            margin-bottom: 2px;
-        }
-        #contact input, #contact textarea, #contact button { width: 100%;}
-        header {
-            padding: 16px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
+                    @media (max-width: 600px) {
+                    #about p, #contact label {
+                            flex-direction: column;
+                            align-items: flex-start;
+                    }
+                    #about strong, #contact label>span  {
+                    text-align: left;
+                    padding-right: 0;
+                    margin-bottom: 2px;
+                    }
+                    #contact input, #contact textarea, #contact button { width: 100%;}
+                    header {
+                    padding: 16px;
+                    position: sticky;
+                    top: 0;
+                    z-index: 1000;
+                    }
 
-        .headercontainer {
-             flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px; 
-    padding: 5px 10px;
-    
-    
-        }
-        
-.headercontainer h1 {
-     margin-right: 10px;
-    text-align: left;
-    flex: 1;
-}
+                    .headercontainer {
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 15px; 
+                    padding: 5px 10px;
+                    
+                    
+                }
+                        
+                .headercontainer h1 {
+                    margin-right: 10px;
+                    text-align: left;
+                    flex: 1;
+                }
 
-.miku {
-    width: 70px;
-    height: auto;
-}
+                .miku {
+                    width: 70px;
+                    height: auto;
+                }
+                .menu-togle
+                {
+                    display: block;
+                    position: absolute;
+                    left: 18px;
+                    top: 8px;
+                }
 
-    }
+                }
 
     #contact input , #contact textarea {
     flex: 1;
