@@ -11,4 +11,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> memperbaiki menu togle yang eror<li>
 <li> menambah pesan di java<li>
 <li> memperbaiki tombol beranda tentang dan kontak<li>
+<li> menambah submit form dan input form<li>
 <ol>
