@@ -22,7 +22,7 @@ if (email.value.trim() === "") {
   showError(email, "Email wajib diisi.");
   isValid = false;
 } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-  showError(email, "Format email tidak valid. Contoh: nama@mail.com");
+  showError(email, "Format email tidak valid. Contoh: nama@gmail.com");
   isValid = false;
 }
 
@@ -36,6 +36,26 @@ if (!isValid) {
 } else {
   alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
 } });
+
+function showError(inputElement, message) {
+  const label = inputElement.closest("label");
+  if (!label) return; 
+  label.style.flexWrap = "wrap";
+const small = document.createElement("small");
+small.className = "error-msg";
+small.textContent = message;
+small.style.color = "red";
+small.style.fontSize = "14px";
+small.style.display = "block";
+small.style.marginTop = "4px";
+small.style.flexBasis = "100%";
+small.dataset.forId = inputElement.id;
+if (inputElement.nextSibling) {
+label.insertBefore(small, inputElement.nextSibling);
+} else {
+label.appendChild(small);
+}
+inputElement.style.border = "1px solid red"; }
 
 alert ("Halo. Saya adalah Rafa Alghifari yang membuat web ini");
 alert("Siapa kamu?");
