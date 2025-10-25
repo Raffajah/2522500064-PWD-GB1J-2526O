@@ -18,6 +18,14 @@ if (nama.value.trim().length < 4) {
   isValid = false;
 }
 
+if (email.value.trim() === "") {
+  showError(email, "Email wajib diisi.");
+  isValid = false;
+} else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
+  showError(email, "Format email tidak valid. Contoh: nama@mail.com");
+  isValid = false;
+}
+
 alert ("Halo. Saya adalah Rafa Alghifari yang membuat web ini");
 alert("Siapa kamu?");
 let nama = prompt("Masukkan Nama");
