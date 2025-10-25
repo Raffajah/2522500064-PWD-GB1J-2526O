@@ -23,4 +23,6 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> styling tombol hamburger menjadi tombol silang saat active<li>
 <li> menambah kalimat sambutan otomatis<li>
 <li> menambah batasan kalimat pesan<li>
+<li> memperlihatkan jumlah pengetikan<li>
+<li> styling mode mobile<li>
 <ol>
