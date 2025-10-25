@@ -34,6 +34,7 @@
         color: white;
         font-size: 28px;
         cursor: pointer;
+        z-index: 2000;
     }
  
  #home p { text-align: justify;}
@@ -172,16 +173,22 @@ backdrop-filter: saturate(120%);
                     position: absolute;
                     left: 18px;
                     top: 8px;
+                    z-index: 2000;
                 }
-                nav> ul> li> a {
+                nav {
                     display: none;
                     flex-direction: column;
                     background: blue;
                     width: 100%;
                     padding: 5px 0;
+                    text-align: center;
                 }
-                nav> ul> li> a.active {
+                nav.active {
                     display: flex;
+                }
+                nav ul {
+                    flex-direction: column;
+                    gap: 10px;
                 }
                 
                 }
