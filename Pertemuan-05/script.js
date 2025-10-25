@@ -26,6 +26,11 @@ if (email.value.trim() === "") {
   isValid = false;
 }
 
+if (pesan.value.trim().length < 10) {
+  showError(pesan, "Pesan minimal 10 karakter agar lebih jelas.");
+  isValid = false;
+}
+
 alert ("Halo. Saya adalah Rafa Alghifari yang membuat web ini");
 alert("Siapa kamu?");
 let nama = prompt("Masukkan Nama");
