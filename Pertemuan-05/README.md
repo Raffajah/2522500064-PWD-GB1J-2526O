@@ -20,4 +20,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menampilkan show eror jika salah input<li>
 <li> menampilkan show eror jika salah input di mobile<li>
 <li> menyesuaikan posisi eror saat layar berubah<li>
+<li> styling tombol hamburger menjadi tombol silang saat active<li>
 <ol>
