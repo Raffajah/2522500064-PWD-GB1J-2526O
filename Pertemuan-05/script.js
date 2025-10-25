@@ -22,7 +22,7 @@ if (email.value.trim() === "") {
   showError(email, "Email wajib diisi.");
   isValid = false;
 } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-  showError(email, "Format email tidak valid. Contoh: nama@gmail.com");
+  showError(email, "Format email tidak valid.Contoh:nama@gmail.com");
   isValid = false;
 }
 
@@ -46,6 +46,7 @@ small.className = "error-msg";
 small.textContent = message;
 small.style.color = "red";
 small.style.fontSize = "14px";
+small.style.fontWeight = "400"
 small.style.display = "block";
 small.style.marginTop = "4px";
 small.style.flexBasis = "100%";
