@@ -18,4 +18,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menambah validasi pesan<li>
 <li> mengkonfirmasi jika pesan benar<li>
 <li> menampilkan show eror jika salah input<li>
+<li> menampilkan show eror jika salah input di mobile<li>
 <ol>
