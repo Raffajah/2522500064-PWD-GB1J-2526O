@@ -16,4 +16,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menambah validasi nama<li>
 <li> menambah validasi email<li>
 <li> menambah validasi pesan<li>
+<li> mengkonfirmasi jika pesan benar<li>
 <ol>

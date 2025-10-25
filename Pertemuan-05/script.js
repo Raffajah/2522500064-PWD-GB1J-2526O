@@ -4,7 +4,7 @@ document.getElementById("menutoggle").addEventListener("click", function()
 document.querySelector("form").addEventListener("submit", function (e) {
  const nama = document.getElementById("txtNama");
 const email = document.getElementById("txtEmail");
-const pesan = document.getElementById("txtPesan"); });
+const pesan = document.getElementById("txtPesan"); 
 
 document.querySelectorAll(".error-msg").forEach(el => el.remove());
 [nama, email, pesan].forEach(el => el.style.border = "");
@@ -31,10 +31,16 @@ if (pesan.value.trim().length < 10) {
   isValid = false;
 }
 
+if (!isValid) {
+  e.preventDefault();
+} else {
+  alert("Terima kasih, " + nama.value + "!\nPesan Anda telah dikirim.");
+} });
+
 alert ("Halo. Saya adalah Rafa Alghifari yang membuat web ini");
 alert("Siapa kamu?");
 let nama = prompt("Masukkan Nama");
 alert("Halo Selamat Datang " + nama + "!");
-console.log("Data Berhasil");
+console.log("Data Berhasil"); 
 
 
