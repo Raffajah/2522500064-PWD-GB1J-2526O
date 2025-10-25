@@ -173,7 +173,17 @@ backdrop-filter: saturate(120%);
                     left: 18px;
                     top: 8px;
                 }
-
+                nav> ul> li> a {
+                    display: none;
+                    flex-direction: column;
+                    background: blue;
+                    width: 100%;
+                    padding: 5px 0;
+                }
+                nav> ul> li> a.active {
+                    display: flex;
+                }
+                
                 }
 
     #contact input , #contact textarea {
