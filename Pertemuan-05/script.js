@@ -174,5 +174,6 @@ alert ("Halo. Saya adalah Rafa Alghifari yang membuat web ini");
 alert("Siapa kamu?");
 let nama = prompt("Masukkan Nama");
 alert("Halo Selamat Datang " + nama + "!");
+document.getElementById("txtNama").value= nama;
 console.log("Data Berhasil"); 
 

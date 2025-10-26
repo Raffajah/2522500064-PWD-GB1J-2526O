@@ -25,4 +25,5 @@ Hari ini 25 Oktober 2025 , saya belajar<ol>
 <li> menambah batasan kalimat pesan<li>
 <li> memperlihatkan jumlah pengetikan<li>
 <li> styling mode mobile<li>
+<li> menambah elemen nama otomatis<li>
 <ol>
