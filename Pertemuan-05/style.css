@@ -311,8 +311,13 @@ backdrop-filter: saturate(120%);
 
      .miku {
         width: 60px;
-        height: auto;
+        height: 60px;
         border-radius: 50%;
         box-shadow: 0 0 20px rgb(0, 0, 0);
      }
-    
+     .miku:hover {
+        width: 65px;
+        height: 65px;
+        border-radius: 60%;
+
+     }
