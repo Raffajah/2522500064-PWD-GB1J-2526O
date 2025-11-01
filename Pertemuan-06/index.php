@@ -24,22 +24,33 @@
     <main>
         <section id="home">
             <h2>Selamat Datang di web saya.</h2>
-            <?php echo "ini rafa yang berbicara dengan pengetikan php <br> ";
+            <?php echo "ini rafa yang berbicara dengan pengetikan php. <br> ";
             echo "kayak ni ternyata php oq rada lupa ku nambah echo e hha"; ?>
         </section>
         <section id ="about">
+            <?php
+            $Nim = '2522500064';
+            $Nama = 'Rafa Alghifari';
+            $Tempatlahir = 'Pangkalpinang';
+            $Tanggallahir = '12 November 2006';
+            $Hoby = 'Menggambar';
+            $Pasangan = 'kagak ada';
+            $Pekerjaan = 'Pengusaha sukses';
+            $Namaibu = 'Umi Kalsum';
+            $Namaayah = 'Agus Widiyanto';
+            $Namaadek = 'Retno Dwi Ayu dan Garini Puspa Ayu';
+            ?>
         <h2>Tentang Saya </h2>
-        <p><strong>Nim :</strong> 2522500064 &#128221;</p>
-        <p><strong>Nama Lengkap :</strong> Rafa Alghifari &#129487;</p>
-        <p><strong>Tempat Lahir :</strong> Pangkalpinang &#127751;</p>
-        <p><strong>Tanggal Lahir :</strong> 12-November-2006 &#128292;</p>
-        <p><strong>Hobby :</strong> Menggambar &#128526;</p>
-        <p><strong>Pasangan :</strong> Tidak ada &#128516;</p>
-        <p><strong>Pekerjaan :</strong> Pengusaha sukses &#128513;</p>
-        <p><strong>Nama Ayah :</strong> Agus Widiyanto &#128104;</p>
-        <p><strong>Nama Ibu :</strong> Umi Kalsum &#128105;</p>
-        <P><strong>Nama Adek :</strong> Retno Dwi Ayu , Garini Puspa Ayu &#128103;</P>
-        <p><strong>Emoji </strong> &#9786; &#128512;</p>
+        <p><strong>Nim :</strong><?php echo $Nim; ?> &#128221;</p>
+        <p><strong>Nama Lengkap :</strong> <?php echo $Nama; ?> &#129487;</p>
+        <p><strong>Tempat Lahir :</strong> <?php echo $Tempatlahir; ?>&#127751;</p>
+        <p><strong>Tanggal Lahir :</strong> <?php echo $Tanggallahir; ?>&#128292;</p>
+        <p><strong>Hobby :</strong> <?php echo $Hoby; ?>&#128526;</p>
+        <p><strong>Pasangan :</strong> <?php echo $Pasangan; ?>&#128516;</p>
+        <p><strong>Pekerjaan :</strong> <?php echo $Pekerjaan; ?>&#128513;</p>
+        <p><strong>Nama Ayah :</strong> <?php echo $Namaayah; ?>&#128104;</p>
+        <p><strong>Nama Ibu :</strong> <?php echo $Namaibu; ?>&#128105;</p>
+        <P><strong>Nama Adek :</strong> <?php echo $Namaadek;?> &#128103;</P>
     </section>
      <section id="contact">
     <h2>Kontak</h2>
