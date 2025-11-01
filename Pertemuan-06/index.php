@@ -54,6 +54,15 @@
         <P><strong>Nama Adek :</strong> <?php echo $Namaadek;?> &#128103;</P>
     </section>
     <section id="ipk">
+        <?php 
+        $namamatku1='Aplikasi Perkantoran';
+        $sksmatkul1='3';
+        $nilaihadir1='90';
+        $nilaitugas1='60';
+        $nilaiuts1='80';
+        $nilaiuas1='70';
+        ?>
+
         <h2>Nilai Saya</h2>
     </section>
      <section id="contact">
