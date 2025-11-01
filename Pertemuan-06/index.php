@@ -79,6 +79,12 @@
         $nilaitugas4='90';
         $nilaiuts4='90';
         $nilaiuas4='90';
+         $namamatkul5='Pemrograman Web Dasar';
+        $sksmatkul5='3';
+        $nilaihadir5='80';
+        $nilaitugas5='80';
+        $nilaiuts5='80';
+        $nilaiuas5='80';
         ?>
 
         <h2>Nilai Saya</h2>
