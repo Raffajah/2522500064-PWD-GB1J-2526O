@@ -11,6 +11,7 @@
         <div class="headercontainer">
         <button class="menu-togle" id="menutoggle"aria-label="Toggle Navigation">&#9776;</button>
          <h1>Halo Semua ^w^</h1>
+         <?php "ini rafa yang berbicara dengan pengetikan php" ?>
         <img src="220290.gif" alt="..." class="miku">
         </div>
             <nav>
