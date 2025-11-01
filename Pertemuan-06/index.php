@@ -73,6 +73,12 @@
         $nilaitugas3='70';
         $nilaiuts3='70';
         $nilaiuas3='90';
+            $namamatkul4='Pengantar Teknologi';
+        $sksmatkul4='3';
+        $nilaihadir4='90';
+        $nilaitugas4='90';
+        $nilaiuts4='90';
+        $nilaiuas4='90';
         ?>
 
         <h2>Nilai Saya</h2>
