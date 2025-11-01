@@ -18,6 +18,7 @@
                     <li> <a href="#home">Beranda</a></li>
                     <li> <a href="#about">Tentang</a></li>
                     <li> <a href="#contact">Kontak</a></li>
+                    <li> <a href="#ipk">Nilai</a></li>
                 </ul>
             </nav>
     </header>
@@ -51,6 +52,9 @@
         <p><strong>Nama Ayah :</strong> <?php echo $Namaayah; ?>&#128104;</p>
         <p><strong>Nama Ibu :</strong> <?php echo $Namaibu; ?>&#128105;</p>
         <P><strong>Nama Adek :</strong> <?php echo $Namaadek;?> &#128103;</P>
+    </section>
+    <section id="ipk">
+        <h2>Nilai Saya</h2>
     </section>
      <section id="contact">
     <h2>Kontak</h2>
