@@ -9,4 +9,5 @@ Hari sabtu 01,11,2025. saya belajar <ol>
 <li> membuat link href dan section untuk nilai </li> 
 <li> membuat border section nilai </li> 
 <li> membuat variabel matkul 1 </li> 
+<li> membuat variabel matkul 2 </li> 
 <ol>

@@ -60,7 +60,13 @@
         $nilaihadir1='90';
         $nilaitugas1='60';
         $nilaiuts1='80';
-        $nilaiuas1='70';
+        $nilaiuas1='70'
+        $namamatkul2='Logika Informatika';
+        $sksmatkul2='3';
+        $nilaihadir2='70';
+        $nilaitugas1='50';
+        $nilaiuts2='60';
+        $nilaiuas2='80';
         ?>
 
         <h2>Nilai Saya</h2>
