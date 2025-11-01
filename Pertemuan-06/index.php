@@ -24,7 +24,8 @@
     <main>
         <section id="home">
             <h2>Selamat Datang di web saya.</h2>
-            <?php echo "ini rafa yang berbicara dengan pengetikan php"; ?>
+            <?php echo "ini rafa yang berbicara dengan pengetikan php <br> ";
+            echo "kayak ni ternyata php oq rada lupa ku nambah echo e hha"; ?>
         </section>
         <section id ="about">
         <h2>Tentang Saya </h2>
