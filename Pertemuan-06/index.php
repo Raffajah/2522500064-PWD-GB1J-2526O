@@ -55,18 +55,24 @@
     </section>
     <section id="ipk">
         <?php 
-        $namamatku1='Aplikasi Perkantoran';
+            $namamatkul1='Aplikasi Perkantoran';
         $sksmatkul1='3';
         $nilaihadir1='90';
         $nilaitugas1='60';
         $nilaiuts1='80';
         $nilaiuas1='70'
-        $namamatkul2='Logika Informatika';
+            $namamatkul2='Logika Informatika';
         $sksmatkul2='3';
         $nilaihadir2='70';
         $nilaitugas1='50';
         $nilaiuts2='60';
         $nilaiuas2='80';
+            $namamatkul3='Pengantar Basis Data';
+        $sksmatkul3='3';
+        $nilaihadir3='80';
+        $nilaitugas3='70';
+        $nilaiuts3='70';
+        $nilaiuas3='90';
         ?>
 
         <h2>Nilai Saya</h2>
