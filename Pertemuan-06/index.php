@@ -290,7 +290,11 @@
             }
         }
 
-
+        $bobot1=$mutu1 * $sksmatkul1
+        $bobot2=$mutu2 * $sksmatkul2
+        $bobot3=$mutu3 * $sksmatkul3
+        $bobot4=$mutu4 * $sksmatkul4
+        $bobot5=$mutu5 * $sksmatkul5
 
         ?>
 
@@ -302,6 +306,11 @@
         <p><strong>Tugas:</strong> <?php echo $nilaitugas1; ?></p>
         <p><strong>UTS:</strong> <?php echo $nilaiuts1; ?></p>
         <p><strong>UAS:</strong> <?php echo $nilaiuas1; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir1; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade1; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu1; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
+        <p><strong>Status:</strong> <?php echo $status1; ?></p>
         
  
         <p><strong>Nama MataKuliah 2:</strong> <?php echo $namamatkul2; ?></p>
@@ -310,6 +319,11 @@
         <p><strong>Tugas:</strong> <?php echo $nilaitugas2; ?></p>
         <p><strong>UTS:</strong> <?php echo $nilaiuts2; ?></p>
         <p><strong>UAS:</strong> <?php echo $nilaiuas2; ?></p>
+        <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir2; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade2; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu2; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
+        <p><strong>Status:</strong> <?php echo $status2; ?></p>
 
         
         <p><strong>Nama MataKuliah 3:</strong> <?php echo $namamatkul3; ?></p>
@@ -318,6 +332,11 @@
         <p><strong>Tugas:</strong> <?php echo $nilaitugas3; ?></p>
         <p><strong>UTS:</strong> <?php echo $nilaiuts3; ?></p>
         <p><strong>UAS:</strong> <?php echo $nilaiuas3; ?></p>
+         <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir3; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade3; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu3; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
+        <p><strong>Status:</strong> <?php echo $status3; ?></p>
         
         <p><strong>Nama MataKuliah 4:</strong> <?php echo $namamatkul4; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
@@ -325,7 +344,11 @@
         <p><strong>Tugas:</strong> <?php echo $nilaitugas4; ?></p>
         <p><strong>UTS:</strong> <?php echo $nilaiuts4; ?></p>
         <p><strong>UAS:</strong> <?php echo $nilaiuas4; ?></p>
-        
+         <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir4; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade4; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu4; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
+        <p><strong>Status:</strong> <?php echo $status4; ?></p>
       
         <p><strong>Nama MataKuliah 5:</strong> <?php echo $namamatkul5; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul5; ?></p>
@@ -333,6 +356,11 @@
         <p><strong>Tugas:</strong> <?php echo $nilaitugas5; ?></p>
         <p><strong>UTS:</strong> <?php echo $nilaiuts5; ?></p>
         <p><strong>UAS:</strong> <?php echo $nilaiuas5; ?></p>
+         <p><strong>Nilai Akhir:</strong> <?php echo $nilaiAkhir5; ?></p>
+        <p><strong>Grade:</strong> <?php echo $grade5; ?></p>
+        <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
+        <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
+        <p><strong>Status:</strong> <?php echo $status5; ?></p>
         
     </section>
      <section id="contact">
