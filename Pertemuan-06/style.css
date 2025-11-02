@@ -2,7 +2,7 @@
     * { box-sizing: border-box;}
     
     body { margin: 0;
-    background: rgb(8, 46, 67);
+    background: rgb(6, 76, 112);
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
     line-height: 1.5;
@@ -80,7 +80,7 @@ backdrop-filter: saturate(120%);
 
     #home p {text-align: center;}
 
- #about, #contact, #home, #ipk {
+ #about, #contact, #home , #ipk{
         border-radius: 10px;
         background: linear-gradient(45deg , #03d1ff, #005464, #0044fe, #0303ff, #13006f  );
         background-size: 800%;
@@ -98,11 +98,11 @@ backdrop-filter: saturate(120%);
     }
 
 
-#home, #about, #contact {
+#home, #about, #contact , #ipk {
     box-shadow: 6px 6px 20px rgb(0, 0, 0), 6px 6px 20px blue;
 }
 
-      #about h2 , #contact h2, #home h2, #ipk h2 {
+      #about h2 , #contact h2, #home h2, #ipk h2  {
         color: #000000;
         border-bottom: 2px solid #003366;
         padding-bottom: 6px;
@@ -110,17 +110,15 @@ backdrop-filter: saturate(120%);
         margin-bottom: 16px;
     }
 
-      #about p , #contact label {
+      #about p , #contact label, #ipk p {
         display: flex;
         justify-content: flex-start;
         align-items: baseline;
         margin: 0;
         padding: 6px 0;
         border-bottom: 1px solid #000000;
-    
     }
-
-     #about strong , #contact label>span {
+     #about strong , #contact label>span , #ipk strong {
 
         min-width: 180px;
         color: #000000;
