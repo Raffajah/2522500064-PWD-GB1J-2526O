@@ -127,6 +127,21 @@ backdrop-filter: saturate(120%);
         padding-right: 16px;
         flex-shrink: 0;
     }
+   h3 {
+        font-weight: 800;
+        color: black;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        display: block;
+        font-size: 20px;
+        background: linear-gradient(45deg , #03d1ff, #005464, #0044fe, #0303ff, #13006f  );
+        background-size: 800%;
+        animation:  wave 4s ease infinite;
+        border-radius: 6px;
+        margin: 30px auto;
+    }
+ 
 
                     @media (max-width: 600px) {
                     #about p, #contact label ,#ipk p {

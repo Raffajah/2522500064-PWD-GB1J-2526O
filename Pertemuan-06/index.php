@@ -296,11 +296,12 @@
         $bobot4=$mutu4 * $sksmatkul4;
         $bobot5=$mutu5 * $sksmatkul5;
 
+        
         ?>
 
         <h2>Nilai Saya</h2>
         
-        <div class="matkul1"> <p>Matakuliah 1</p></div>
+        <h3>MataKuliah 1</h3>
         <p><strong>Nama MataKuliah 1:</strong> <?php echo $namamatkul1; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul1; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir1; ?> </p>
@@ -313,7 +314,7 @@
         <p><strong>Bobot:</strong> <?php echo $bobot1; ?></p>
         <p><strong>Status:</strong> <?php echo $status1; ?></p>
         
-        <div class= "matkul2"><p>MataKuliah 2</p></div>
+        <h3>MataKuliah 2</h3>
         <p><strong>Nama MataKuliah 2:</strong> <?php echo $namamatkul2; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir2; ?></p>
@@ -326,7 +327,7 @@
         <p><strong>Bobot:</strong> <?php echo $bobot2; ?></p>
         <p><strong>Status:</strong> <?php echo $status2; ?></p>
 
-        <div class= "matkul3"><p>MataKuliah 3</p></div>
+        <h3>MataKuliah 3</h3>
         <p><strong>Nama MataKuliah 3:</strong> <?php echo $namamatkul3; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul3; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir3; ?></p>
@@ -339,7 +340,7 @@
         <p><strong>Bobot:</strong> <?php echo $bobot3; ?></p>
         <p><strong>Status:</strong> <?php echo $status3; ?></p>
         
-        <div class= "matkul4"><p>MataKuliah 4</p></div>
+        <h3>MataKuliah 4</h3>
         <p><strong>Nama MataKuliah 4:</strong> <?php echo $namamatkul4; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul4; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir4; ?></p>
@@ -352,7 +353,7 @@
         <p><strong>Bobot:</strong> <?php echo $bobot4; ?></p>
         <p><strong>Status:</strong> <?php echo $status4; ?></p>
       
-        <div class= "matkul5"><p>MataKuliah 5</p></div>
+        <h3>MataKuliah 5</h3>
         <p><strong>Nama MataKuliah 5:</strong> <?php echo $namamatkul5; ?></p>
         <p><strong>SKS:</strong> <?php echo $sksmatkul5; ?></p>
         <p><strong>Kehadiran:</strong> <?php echo $nilaihadir5; ?></p>
