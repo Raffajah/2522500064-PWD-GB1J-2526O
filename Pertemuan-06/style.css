@@ -129,11 +129,11 @@ backdrop-filter: saturate(120%);
     }
 
                     @media (max-width: 600px) {
-                    #about p, #contact label {
+                    #about p, #contact label ,#ipk p {
                             flex-direction: column;
                             align-items: flex-start;
                     }
-                    #about strong, #contact label>span  {
+                    #about strong, #contact label>span, #ipk strong  {
                     text-align: left;
                     padding-right: 0;
                     margin-bottom: 2px;
