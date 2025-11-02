@@ -38,9 +38,6 @@
        
     }
  
-    .bobot {
-        border-bottom: none;
-    }
  #home p { text-align: justify;}
 
     header li a:hover {
@@ -144,8 +141,20 @@ backdrop-filter: saturate(120%);
         border-radius: 6px;
         margin: 30px auto;
     }
- 
-
+  
+h4 {
+    text-align: left;
+    padding-left: 50px;
+    display: block;
+    background-color: #003366;
+    padding: 10px;
+    padding-left: 55px;
+    margin-right: 400px;
+    border-radius: 8px; 
+     background: linear-gradient(45deg , #03d1ff, #005464, #0044fe, #0303ff, #13006f  );
+        background-size: 800%;
+        animation:  wave 4s ease infinite;
+}
                     @media (max-width: 600px) {
                     #about p, #contact label ,#ipk p {
                             flex-direction: column;

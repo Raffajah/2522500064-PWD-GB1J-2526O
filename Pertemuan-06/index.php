@@ -367,6 +367,7 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
         <p><strong>Status:</strong> <?php echo $status5; ?></p>
+        <H4>Total Keseluruhan</H4>
         <P><strong>Total Bobot:</strong><?php echo $totalbobot; ?></P>
         <p><strong>Total SKS:</strong><?php echo $totalsks; ?></p>
         <p><strong>IPK:</strong><?php echo $ipk; ?></p> 
