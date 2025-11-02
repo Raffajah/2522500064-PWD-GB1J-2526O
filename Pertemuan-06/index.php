@@ -64,7 +64,7 @@
             $namamatkul2='Logika Informatika';
         $sksmatkul2='3';
         $nilaihadir2='70';
-        $nilaitugas1='50';
+        $nilaitugas2='50';
         $nilaiuts2='60';
         $nilaiuas2='80';
             $namamatkul3='Pengantar Basis Data';
@@ -90,43 +90,43 @@
         <h2>Nilai Saya</h2>
         <div class="1"><p> Mata Kuliah 1</p></div>
         <p><strong>Nama MataKuliah ke-1:</strong><?php echo $namamatkul1; ?></p>
-        <p><strong>SKS:</strong></p>
-        <p><strong>Kehadiran:</strong></p>
-        <p><strong>Tugas:</strong></p>
-        <p><strong>UTS:</strong></p>
-        <p><strong>UAS:</strong></p>
+        <p><strong>SKS:</strong><?php echo $sksmatkul1; ?></p>
+        <p><strong>Kehadiran:</strong><?php echo $nilaihadir1; ?> </p>
+        <p><strong>Tugas:</strong> <?php echo $nilaitugas1; ?></p>
+        <p><strong>UTS:</strong><?php echo $nilaiuts1; ?></p>
+        <p><strong>UAS:</strong><?php echo $nilaiuas1; ?></p>
         
         <div class="2"> <p>Mata Kuliah 2</p></div>
-         <p><strong>Nama MataKuliah ke-2:</strong></p>
-        <p><strong>SKS:</strong></p>
-        <p><strong>Kehadiran:</strong></p>
-        <p><strong>Tugas:</strong></p>
-        <p><strong>UTS:</strong></p>
-        <p><strong>UAS:</strong></p>
+         <p><strong>Nama MataKuliah ke-2:</strong> <?php echo $namamatkul2; ?></p>
+        <p><strong>SKS:</strong> <?php echo $sksmatkul2; ?></p>
+        <p><strong>Kehadiran:</strong><?php echo $nilaihadir2; ?></p>
+        <p><strong>Tugas:</strong><?php echo $nilaitugas2; ?></p>
+        <p><strong>UTS:</strong><?php echo $nilaiuts2; ?></p>
+        <p><strong>UAS:</strong><? echo $nilaiuas2; ?></p>
 
         <div class= "3"> <p>Mata Kuliah 3</p></div>
-         <p><strong>Nama MataKuliah ke-3:</strong></p>
-        <p><strong>SKS:</strong></p>
-        <p><strong>Kehadiran:</strong></p>
-        <p><strong>Tugas:</strong></p>
-        <p><strong>UTS:</strong></p>
-        <p><strong>UAS:</strong></p>
+         <p><strong>Nama MataKuliah ke-3:</strong><?php echo $namamatkul3; ?></p>
+        <p><strong>SKS:</strong><?php echo $sksmatkul3; ?></p>
+        <p><strong>Kehadiran:</strong><?php echo $nilaihadir3; ?></p>
+        <p><strong>Tugas:</strong><?php echo $nilaitugas3; ?></p>
+        <p><strong>UTS:</strong><?php echo $nilaiuts3; ?></p>
+        <p><strong>UAS:</strong><?php echo $nilaiuas3; ?></p>
         
         <div class="4"><p>Mata Kuliah 4</p></div>
-         <p><strong>Nama MataKuliah ke-4:</strong></p>
-        <p><strong>SKS:</strong></p>
-        <p><strong>Kehadiran:</strong></p>
-        <p><strong>Tugas:</strong></p>
-        <p><strong>UTS:</strong></p>
-        <p><strong>UAS:</strong></p>
+         <p><strong>Nama MataKuliah ke-4:</strong><?php echo $namamatkul4; ?></p>
+        <p><strong>SKS:</strong><?php echo $sksmatkul4; ?></p>
+        <p><strong>Kehadiran:</strong><?php echo $nilaihadir4; ?></p>
+        <p><strong>Tugas:</strong><?php echo $nilaitugas4: ?></p>
+        <p><strong>UTS:</strong><?php echo $nilaiuts4; ?></p>
+        <p><strong>UAS:</strong><?php echo $nilaiuas4; ?></p>
         
         <div class="5"><p>Mata Kuliah 5</p></div>
-         <p><strong>Nama MataKuliah ke-5:</strong></p>
-        <p><strong>SKS:</strong></p>
-        <p><strong>Kehadiran:</strong></p>
-        <p><strong>Tugas:</strong></p>
-        <p><strong>UTS:</strong></p>
-        <p><strong>UAS:</strong></p>
+         <p><strong>Nama MataKuliah ke-5:</strong><?php echo $namamatkul5; ?></p>
+        <p><strong>SKS:</strong><?php echo $sksmatkul5; ?></p>
+        <p><strong>Kehadiran:</strong><?php echo $nilaihadir5; ?></p>
+        <p><strong>Tugas:</strong><?php echo $nilaitugas5; ?></p>
+        <p><strong>UTS:</strong><?php echo $nilaiuts5; ?></p>
+        <p><strong>UAS:</strong><?php echo $nilaiuas5; ?></p>
         
     </section>
      <section id="contact">
