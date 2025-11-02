@@ -296,7 +296,9 @@
         $bobot4=$mutu4 * $sksmatkul4;
         $bobot5=$mutu5 * $sksmatkul5;
 
-        
+        $totalbobot= $bobot1 + $bobot2 + $bobot3 + $bobot4 + $bobot5;  
+        $totalsks= $sksmatkul1 + $sksmatkul2 + $sksmatkul3 + $sksmatkul4 + $sksmatkul5;
+        $ipk= $totalbobot/$totalsks;     
         ?>
 
         <h2>Nilai Saya</h2>
@@ -365,6 +367,9 @@
         <p><strong>Angka Mutu:</strong> <?php echo $mutu5; ?></p>
         <p><strong>Bobot:</strong> <?php echo $bobot5; ?></p>
         <p><strong>Status:</strong> <?php echo $status5; ?></p>
+        <P><strong>Total Bobot:</strong><?php echo $totalbobot; ?></P>
+        <p><strong>Total SKS:</strong><?php echo $totalsks; ?></p>
+        <p><strong>IPK:</strong><?php echo $ipk; ?></p> 
         
     </section>
      <section id="contact">

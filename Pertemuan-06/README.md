@@ -19,4 +19,5 @@ Hari sabtu 01,11,2025. saya belajar <ol>
 <li> menambah bobot dan nilai akhir , mutu , grade , bobot , status </li> 
 <li> grouping section ipk ke mode mobile </li> 
 <li> styling h3  </li> 
+<li> membuat perhitunngan total bobot ,sks, ipk  </li> 
 <ol>

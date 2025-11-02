@@ -38,6 +38,9 @@
        
     }
  
+    .bobot {
+        border-bottom: none;
+    }
  #home p { text-align: justify;}
 
     header li a:hover {
