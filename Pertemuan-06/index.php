@@ -141,7 +141,7 @@
                 $grade1="D";
                 $mutu1=1.00;
                 $status1="Gagal";
-            } else 
+            } elseif
                 ($nilaiAkhir1>=0){
                 $grade1="E";
                 $mutu1=0.00;
@@ -198,7 +198,7 @@
                 $grade2="D";
                 $mutu2=1.00;
                 $status2="Gagal";
-            } else 
+            } elseif 
                 ($nilaiAkhir2>=0){
                 $grade2="E";
                 $mutu2=0.00;
@@ -229,8 +229,8 @@
                 $grade3 = "C-"; $mutu3 = 1.70; $status3 = "Lulus";
             } elseif ($nilaiAkhir3 >= 36) {
                 $grade3 = "D"; $mutu3 = 1.00; $status3 = "Gagal";
-            } else {
-                $grade3 = "E"; $mutu3 = 0.00; $status3 = "Gagal";
+            } elseif 
+                    ($nilaiAkhir3>= 0) { $grade3 = "E"; $mutu3 = 0.00; $status3 = "Gagal";
             }
         }
 
@@ -257,7 +257,7 @@
                 $grade4 = "C-"; $mutu4 = 1.70; $status4 = "Lulus";
             } elseif ($nilaiAkhir4 >= 36) {
                 $grade4 = "D"; $mutu4 = 1.00; $status4 = "Gagal";
-            } else {
+            } elseif ($nilaiAkhir4>=0) {
                 $grade4 = "E"; $mutu4 = 0.00; $status4 = "Gagal";
             }
         }
@@ -285,16 +285,16 @@
                 $grade5 = "C-"; $mutu5 = 1.70; $status5 = "Lulus";
             } elseif ($nilaiAkhir5 >= 36) {
                 $grade5 = "D"; $mutu5 = 1.00; $status5 = "Gagal";
-            } else {
+            } elseif ($nilaiAkhir5>= 0) {
                 $grade5 = "E"; $mutu5 = 0.00; $status5 = "Gagal";
             }
         }
 
-        $bobot1=$mutu1 * $sksmatkul1
-        $bobot2=$mutu2 * $sksmatkul2
-        $bobot3=$mutu3 * $sksmatkul3
-        $bobot4=$mutu4 * $sksmatkul4
-        $bobot5=$mutu5 * $sksmatkul5
+        $bobot1=$mutu1 * $sksmatkul1;
+        $bobot2=$mutu2 * $sksmatkul2;
+        $bobot3=$mutu3 * $sksmatkul3;
+        $bobot4=$mutu4 * $sksmatkul4;
+        $bobot5=$mutu5 * $sksmatkul5;
 
         ?>
 
