@@ -88,6 +88,46 @@
         ?>
 
         <h2>Nilai Saya</h2>
+        <div class="1"><p> Mata Kuliah 1</p></div>
+        <p><strong>Nama MataKuliah ke-1:</strong><?php echo $namamatkul1; ?></p>
+        <p><strong>SKS:</strong></p>
+        <p><strong>Kehadiran:</strong></p>
+        <p><strong>Tugas:</strong></p>
+        <p><strong>UTS:</strong></p>
+        <p><strong>UAS:</strong></p>
+        
+        <div class="2"> <p>Mata Kuliah 2</p></div>
+         <p><strong>Nama MataKuliah ke-2:</strong></p>
+        <p><strong>SKS:</strong></p>
+        <p><strong>Kehadiran:</strong></p>
+        <p><strong>Tugas:</strong></p>
+        <p><strong>UTS:</strong></p>
+        <p><strong>UAS:</strong></p>
+
+        <div class= "3"> <p>Mata Kuliah 3</p></div>
+         <p><strong>Nama MataKuliah ke-3:</strong></p>
+        <p><strong>SKS:</strong></p>
+        <p><strong>Kehadiran:</strong></p>
+        <p><strong>Tugas:</strong></p>
+        <p><strong>UTS:</strong></p>
+        <p><strong>UAS:</strong></p>
+        
+        <div class="4"><p>Mata Kuliah 4</p></div>
+         <p><strong>Nama MataKuliah ke-4:</strong></p>
+        <p><strong>SKS:</strong></p>
+        <p><strong>Kehadiran:</strong></p>
+        <p><strong>Tugas:</strong></p>
+        <p><strong>UTS:</strong></p>
+        <p><strong>UAS:</strong></p>
+        
+        <div class="5"><p>Mata Kuliah 5</p></div>
+         <p><strong>Nama MataKuliah ke-5:</strong></p>
+        <p><strong>SKS:</strong></p>
+        <p><strong>Kehadiran:</strong></p>
+        <p><strong>Tugas:</strong></p>
+        <p><strong>UTS:</strong></p>
+        <p><strong>UAS:</strong></p>
+        
     </section>
      <section id="contact">
     <h2>Kontak</h2>
