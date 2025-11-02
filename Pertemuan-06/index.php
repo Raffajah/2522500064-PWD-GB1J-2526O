@@ -101,48 +101,48 @@
                 $grade1="A";
                 $mutu1=4.00;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=81)
+            } elseif 
+                ($nilaiAkhir1>=81){
                 $grade1="A-";
                 $mutu1=3.70;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=76)
+            } elseif 
+                ($nilaiAkhir1>=76){
                 $grade1="B+";
                 $mutu1=3.30;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=71)
+            } elseif 
+                ($nilaiAkhir1>=71){
                 $grade1="B";
                 $mutu1=3.00;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=66)
+            } elseif 
+                ($nilaiAkhir1>=66){
                 $grade1="B-";
                 $mutu1=2.70;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=61)
+            } elseif 
+                ($nilaiAkhir1>=61){
                 $grade1="C+";
                 $mutu1=2.30;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=56)
+            } elseif 
+                ($nilaiAkhir1>=56){
                 $grade1="C";
                 $mutu1=2.00;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=51)
+            } elseif 
+                ($nilaiAkhir1>=51){
                 $grade1="C-";
                 $mutu1=1.70;
                 $status1="Lulus";
-            } elseif {
-                ($nilaiAkhir1>=36)
+            } elseif 
+                ($nilaiAkhir1>=36){
                 $grade1="D";
                 $mutu1=1.00;
                 $status1="Gagal";
-            } else {
-                ($nilaiAkhir1>=0)
+            } else 
+                ($nilaiAkhir1>=0){
                 $grade1="E";
                 $mutu1=0.00;
                 $status1="Gagal";
@@ -158,48 +158,48 @@
                 $grade2="A";
                 $mutu2=4.00;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=81)
+            } elseif 
+                ($nilaiAkhir2>=81){
                 $grade2="A-";
                 $mutu2=3.70;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=76)
+            } elseif 
+                ($nilaiAkhir2>=76){
                 $grade2="B+";
                 $mutu2=3.30;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=71)
+            } elseif 
+                ($nilaiAkhir2>=71){
                 $grade2="B";
                 $mutu2=3.00;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=66)
+            } elseif 
+                ($nilaiAkhir2>=66){
                 $grade2="B-";
                 $mutu2=2.70;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=61)
+            } elseif 
+                ($nilaiAkhir2>=61){
                 $grade2="C+";
                 $mutu2=2.30;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=56)
+            } elseif 
+                ($nilaiAkhir2>=56){
                 $grade2="C";
                 $mutu2=2.00;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=51)
+            } elseif 
+                ($nilaiAkhir2>=51){
                 $grade2="C-";
                 $mutu2=1.70;
                 $status2="Lulus";
-            } elseif {
-                ($nilaiAkhir2>=36)
+            } elseif 
+                ($nilaiAkhir2>=36){
                 $grade2="D";
                 $mutu2=1.00;
                 $status2="Gagal";
-            } else {
-                ($nilaiAkhir2>=0)
+            } else 
+                ($nilaiAkhir2>=0){
                 $grade2="E";
                 $mutu2=0.00;
                 $status2="Gagal";
