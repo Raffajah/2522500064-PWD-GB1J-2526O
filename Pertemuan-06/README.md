@@ -14,4 +14,5 @@ Hari sabtu 01,11,2025. saya belajar <ol>
 <li> membuat variabel matkul 4 </li> 
 <li> membuat variabel matkul 5 </li> 
 <li> mengroup section ipk dengan about dan styling tipis2 </li> 
+<li> membuat variabel perhitugan 1 sampai 5 </li> 
 <ol>
