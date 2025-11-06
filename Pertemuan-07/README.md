@@ -5,4 +5,5 @@ Hari ini saya belajar
 <ol>
 <li>copy item</li>
 <li>method dan action index.php</li>
+<li>proses.php</li>
 </ol>
