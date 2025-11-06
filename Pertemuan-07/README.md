@@ -6,4 +6,5 @@ Hari ini saya belajar
 <li>copy item</li>
 <li>method dan action index.php</li>
 <li>proses.php</li>
+<li>isi proses.php</li>
 </ol>
