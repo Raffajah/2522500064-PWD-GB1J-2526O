@@ -5,4 +5,5 @@ hari ini saya belajar
 <ol>
 <li>copy file yang diberikan</li>
 <li>membuat file proses php</li>
+<li>menambah file proses.php ke action post</li>
 </ol>
