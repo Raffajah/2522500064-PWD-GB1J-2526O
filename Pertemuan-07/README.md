@@ -6,4 +6,5 @@ hari ini saya belajar
 <li>copy file yang diberikan</li>
 <li>membuat file proses php</li>
 <li>menambah file proses.php ke action post</li>
+<li>mengubah e target dari reset ke submit untuk proses.php</li>
 </ol>
