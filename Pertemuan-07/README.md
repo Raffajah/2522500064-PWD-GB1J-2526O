@@ -7,4 +7,5 @@ Hari ini saya belajar
 <li>method dan action index.php</li>
 <li>proses.php</li>
 <li>isi proses.php</li>
+<li>mengalihkan ke halaman proses.php setelah kirim pesan</li>
 </ol>
