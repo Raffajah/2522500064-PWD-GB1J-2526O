@@ -8,4 +8,5 @@ hari ini saya belajar
 <li>menambah file proses.php ke action post</li>
 <li>mengubah e target dari reset ke submit untuk proses.php</li>
 <li>isi file php</li>
+<li>mengambil variabel form dengan txt</li>
 </ol>
