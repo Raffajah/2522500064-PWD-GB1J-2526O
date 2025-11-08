@@ -14,4 +14,5 @@ hari ini saya belajar
 <li>menambah variable $aku untuk menampilkan paragraf di index.php</li>
 <li>menambah file penghancur</li>
 <li>menambah sesi start dan destroy pada penghancur.php</li>
+<li>menambah if dan endif pada form yang menghubungi</li>
 </ol>
