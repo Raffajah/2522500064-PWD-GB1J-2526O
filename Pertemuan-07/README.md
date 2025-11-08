@@ -15,4 +15,5 @@ hari ini saya belajar
 <li>menambah file penghancur</li>
 <li>menambah sesi start dan destroy pada penghancur.php</li>
 <li>menambah if dan endif pada form yang menghubungi</li>
+<li>menambah file baru nilai php</li>
 </ol>
