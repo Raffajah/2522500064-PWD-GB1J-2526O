@@ -10,4 +10,5 @@ hari ini saya belajar
 <li>isi file php</li>
 <li>mengambil variabel form dengan txt</li>
 <li>kembali ke tampilan sebelumnya dengan header php</li>
+<li>membuat variable sesion di proses php</li>
 </ol>
