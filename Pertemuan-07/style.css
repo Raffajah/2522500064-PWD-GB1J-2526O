@@ -167,6 +167,10 @@ footer {
   cursor: pointer;
 }
 
+.siapa {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .menu-toggle {
     display: block;
