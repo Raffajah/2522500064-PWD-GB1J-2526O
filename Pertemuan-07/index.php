@@ -1,3 +1,10 @@
+<?php session_start();
+
+$akunama = $_SESSION["txtNama"];
+$akuemail = $_SESSION["txtEmail"];
+$akupesan = $_SESSION["txtPesan"];
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -83,6 +90,15 @@
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+    </section>
+    <section>
+
+      <h2>Siapa Kamu, Yang menghhubungi kami!</h2>
+      <p><strong>Nama :</strong><?php echo $akunama; ?> </p>
+      <p><strong>Email :</strong><?php echo $akuemail; ?></p>
+      <p><strong>Pesan :</strong><?php echo $akupesan; ?></p>
+
+
     </section>
   </main>
 
