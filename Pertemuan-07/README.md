@@ -13,4 +13,5 @@ hari ini saya belajar
 <li>membuat variable sesion di proses php</li>
 <li>menambah variable $aku untuk menampilkan paragraf di index.php</li>
 <li>menambah file penghancur</li>
+<li>menambah sesi start dan destroy pada penghancur.php</li>
 </ol>

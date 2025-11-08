@@ -101,10 +101,12 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+
         <h2>Siapa Kamu?, Yang menghubungi kami!</h2>
       <p><strong>Nama :</strong><?php echo $akunama; ?> </p>
       <p><strong>Email :</strong><?php echo $akuemail; ?></p>
       <p><strong>Pesan :</strong><?php echo $akupesan; ?></p>
+   
     </section>
     </main>
 
