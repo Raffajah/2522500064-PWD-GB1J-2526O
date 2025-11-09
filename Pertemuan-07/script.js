@@ -132,8 +132,8 @@ document.querySelector("form").addEventListener("submit", function (e) {
    if (lokasi.value.trim() === "") {
         showError(lokasi, "Lokasi Harus diisi.");
         isValid = false;
-    } else if (lokasi.value.trim.length < 5) {
-        showError(lokasi, "Lokasi harus diisi minimal 5 huruf.");
+    } else if (!/^[A-Za-z0-9\s.,-]+$/.test(hobi.value.trim())) {
+        showError(lokasi, "Lokasi harus diisi huruf dan spasi.");
         isValid = false;
     }
    if (hobi.value.trim() === "") {

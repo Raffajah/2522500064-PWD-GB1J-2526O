@@ -12,7 +12,6 @@ $akujam = $_SESSION["txtJam"];
 $akusuka = $_SESSION["txtSuka"];
 $akupesan = $_SESSION["txtPesan"];
 
-echo $akunama . $akuemail . $akujam . $akuhobi . $akugender . $akulokasi . $akunim . $akusuka . $akuusia . $akupesan; 
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +35,7 @@ echo $akunama . $akuemail . $akujam . $akuhobi . $akugender . $akulokasi . $akun
         <li><a href="#home">Beranda</a></li>
         <li><a href="#about">Tentang</a></li>
         <li><a href="#contact">Kontak</a></li>
+        <li><a href="#nilai">nilai</a></li>
       </ul>
     </nav>
   </header>
@@ -85,6 +85,20 @@ echo $akunama . $akuemail . $akujam . $akuhobi . $akugender . $akulokasi . $akun
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+    </section>
+    <section id="nilai">
+      
+        <h2> halo semua </h2>
+        <p>Nama <?php echo $akunama; ?> </p>
+        <p>Nim <?php echo $akunim; ?></p>
+        <p>Jam <?php echo $akujam; ?></p>
+        <p>Gender <?php echo $akugender; ?></p>
+        <p>Lokasi <?php echo $akulokasi; ?></p>
+        <p>Suka Siapa <?php echo $akusuka; ?></p>
+        <p>Hobi apa <?php echo $akuhobi; ?></p>
+        <p>Usia berapa <?php echo $akuusia; ?></p>
+        <p>Email mu apa <?php echo $akuemail; ?></p>
+        <p>Pesan kamu apa <?php echo $akupesan; ?></p>
     </section>
     </main>
 
