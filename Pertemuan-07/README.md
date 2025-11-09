@@ -19,4 +19,5 @@ hari ini saya belajar
 <li>menambah file baru nilai php</li>
 <li>menambah form menjadi 10</li>
 <li>menambah varibel session dan echo karna lupa hhhe</li>
+<li>membuat setting untuk form sisa di java script</li>
 </ol>

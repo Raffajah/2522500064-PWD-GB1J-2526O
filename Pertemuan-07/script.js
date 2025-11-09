@@ -93,12 +93,19 @@ document.addEventListener("DOMContentLoaded", function () {
 document.querySelector("form").addEventListener("submit", function (e) {
     const nama = document.getElementById("txtNama");
     const email = document.getElementById("txtEmail");
+    const nim = document.getElementById("txtNim");
     const pesan = document.getElementById("txtPesan");
+    const lokasi = document.getElementById("txtLokasi");
+    const usia = document.getElementById("txtUsia");
+    const gender = document.getElementById("txtGender");
+    const suka = document.getElementById("txtSuka");
+    const hobi = document.getElementById("txtHobi");
+    const jam = document.getElementById("txtJam");
     e.preventDefault();
     let isValid = true;
 
     document.querySelectorAll(".error-msg").forEach(el => el.remove());
-    [nama, email, pesan].forEach(el => el.style.border = "");
+    [nama, email, nim, pesan, lokasi, suka, hobi, jam, gender, usia].forEach(el => el.style.border = "");
 
     if (nama.value.trim().length < 3) {
         showError(nama, "Nama minimal 3 huruf dan tidak boleh kosong.");
@@ -111,7 +118,57 @@ document.querySelector("form").addEventListener("submit", function (e) {
         showError(email, "Email wajib diisi.");
         isValid = false;
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value)) {
-        showError(email, "Format email tidak valid. Contoh: nama@mail.com");
+        showError(email, "Format email tidak valid. Contoh: nama@gmail.com");
+        isValid = false;
+    }
+
+   if (nim.value.trim() === "") {
+        showError(nim, "Nim Harus diisi.");
+        isValid = false;
+    } else if (!/^[0-9]+$/.test(nim.value.trim())) {
+        showError(nim, "NIM harus berisi angka.");
+        isValid = false;
+    }
+   if (lokasi.value.trim() === "") {
+        showError(lokasi, "Lokasi Harus diisi.");
+        isValid = false;
+    } else if (lokasi.value.trim.length < 5) {
+        showError(lokasi, "Lokasi harus diisi minimal 5 huruf.");
+        isValid = false;
+    }
+   if (hobi.value.trim() === "") {
+        showError(hobi, "Hobi Harus diisi.");
+        isValid = false;
+    } else if (!/^[A-Za-z0-9\s.,-]+$/.test(hobi.value.trim())) {
+        showError(hobi, "Harus berisi huruf dan spasi.");
+        isValid = false;
+    }
+   if (nim.value.trim() === "") {
+        showError(nim, "Nim Harus diisi.");
+        isValid = false;
+    } else if (!/^[0-9]+$/.test(nim.value.trim())) {
+        showError(nim, "NIM harus berisi angka.");
+        isValid = false;
+    }
+   if (nim.value.trim() === "") {
+        showError(nim, "Nim Harus diisi.");
+        isValid = false;
+    } else if (!/^[0-9]+$/.test(nim.value.trim())) {
+        showError(nim, "NIM harus berisi angka.");
+        isValid = false;
+    }
+   if (nim.value.trim() === "") {
+        showError(nim, "Nim Harus diisi.");
+        isValid = false;
+    } else if (!/^[0-9]+$/.test(nim.value.trim())) {
+        showError(nim, "NIM harus berisi angka.");
+        isValid = false;
+    }
+   if (nim.value.trim() === "") {
+        showError(nim, "Nim Harus diisi.");
+        isValid = false;
+    } else if (!/^[0-9]+$/.test(nim.value.trim())) {
+        showError(nim, "NIM harus berisi angka.");
         isValid = false;
     }
 
