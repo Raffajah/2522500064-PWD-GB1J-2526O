@@ -1,20 +1,18 @@
 <?php session_start();
 
-$akunama="";
-if (isset($_SESSION["txtNama"])) :
+
 $akunama = $_SESSION["txtNama"];
-endif;
-
-$akuemail="";
-if (isset($_SESSION["txtEmail"])) :
 $akuemail = $_SESSION["txtEmail"];
-endif;
-
-$akupesan="";
-if (isset($_SESSION["txtPesan"])) :
+$akuusia = $_SESSION["txtUsia"];
+$akuhobi = $_SESSION["txtHobi"];
+$akulokasi = $_SESSION["txtLokasi"];
+$akugender = $_SESSION["txtGender"];
+$akunim = $_SESSION["txtNim"];
+$akujam = $_SESSION["txtJam"];
+$akusuka = $_SESSION["txtSuka"];
 $akupesan = $_SESSION["txtPesan"];
-endif;
 
+echo $akunama . $akuemail . $akujam . $akuhobi . $akugender . $akulokasi . $akunim . $akusuka . $akuusia . $akupesan; 
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +45,7 @@ endif;
 
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <form action="prosesnilai.php" method="POST">
+      <form action="prosesnilai.php" method="GET">
 
         <label for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
