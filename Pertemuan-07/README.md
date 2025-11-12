@@ -21,4 +21,5 @@ hari ini saya belajar
 <li>menambah varibel session dan echo karna lupa hhhe</li>
 <li>membuat setting untuk form sisa di java script</li>
 <li>membuat file peghancur nilai.php dan isi nya</li>
+<li>melakukan styling tipis tipis</li>
 </ol>

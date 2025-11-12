@@ -1,16 +1,17 @@
 <?php session_start();
 
 
-$akunama = $_SESSION["txtNama"]??"";
-$akuemail = $_SESSION["txtEmail"]??"";
-$akuusia = $_SESSION["txtUsia"]??"";
-$akuhobi = $_SESSION["txtHobi"]??"";
-$akulokasi = $_SESSION["txtLokasi"]??"";
-$akugender = $_SESSION["txtGender"]??"";
-$akunim = $_SESSION["txtNim"]??"";
-$akujam = $_SESSION["txtJam"]??"";
-$akusuka = $_SESSION["txtSuka"]??"";
-$akupesan = $_SESSION["txtPesan"]??"";
+$akunama = $_SESSION["txtNama"];
+
+$akuemail = $_SESSION["txtEmail"];
+$akuusia = $_SESSION["txtUsia"];
+$akuhobi = $_SESSION["txtHobi"];
+$akulokasi = $_SESSION["txtLokasi"];
+$akugender = $_SESSION["txtGender"];
+$akunim = $_SESSION["txtNim"];
+$akujam = $_SESSION["txtJam"];
+$akusuka = $_SESSION["txtSuka"];
+$akupesan = $_SESSION["txtPesan"];
 
 ?>
 
@@ -85,10 +86,10 @@ $akupesan = $_SESSION["txtPesan"]??"";
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-    </section>
-    <section id="nilai">
-      
-        <h2> halo semua </h2>
+      <hr>
+      <hr>
+
+        <h2 style = "text-align: center; margin-top: 20px; text-transform: capitalize;"> siapa yang menghubungi saya? </h2>
         <p>Nama <?php echo $akunama; ?> </p>
         <p>Nim <?php echo $akunim; ?></p>
         <p>Jam <?php echo $akujam; ?></p>
@@ -99,9 +100,8 @@ $akupesan = $_SESSION["txtPesan"]??"";
         <p>Usia berapa <?php echo $akuusia; ?></p>
         <p>Email mu apa <?php echo $akuemail; ?></p>
         <p>Pesan kamu apa <?php echo $akupesan; ?></p>
-    </section>
-    </main>
-
+      
+</main>
   <footer>
     <p>&copy; Rafa Alghifari</p>
   </footer>
