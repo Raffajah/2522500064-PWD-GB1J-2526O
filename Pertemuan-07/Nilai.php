@@ -1,16 +1,16 @@
 <?php session_start();
 
 
-$akunama = $_SESSION["txtNama"];
-$akuemail = $_SESSION["txtEmail"];
-$akuusia = $_SESSION["txtUsia"];
-$akuhobi = $_SESSION["txtHobi"];
-$akulokasi = $_SESSION["txtLokasi"];
-$akugender = $_SESSION["txtGender"];
-$akunim = $_SESSION["txtNim"];
-$akujam = $_SESSION["txtJam"];
-$akusuka = $_SESSION["txtSuka"];
-$akupesan = $_SESSION["txtPesan"];
+$akunama = $_SESSION["txtNama"]??"";
+$akuemail = $_SESSION["txtEmail"]??"";
+$akuusia = $_SESSION["txtUsia"]??"";
+$akuhobi = $_SESSION["txtHobi"]??"";
+$akulokasi = $_SESSION["txtLokasi"]??"";
+$akugender = $_SESSION["txtGender"]??"";
+$akunim = $_SESSION["txtNim"]??"";
+$akujam = $_SESSION["txtJam"]??"";
+$akusuka = $_SESSION["txtSuka"]??"";
+$akupesan = $_SESSION["txtPesan"]??"";
 
 ?>
 
