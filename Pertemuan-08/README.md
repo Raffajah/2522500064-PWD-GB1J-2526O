@@ -19,4 +19,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>styling button hover css yang atau grouping</li>
   <li>membuat sesion proses php</li>
   <li>membuat sesion di index php</li>
+  <li>membuat variabel di about sesuai dngan form</li>
 </ol>
