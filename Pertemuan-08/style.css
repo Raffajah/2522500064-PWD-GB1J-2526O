@@ -109,7 +109,9 @@ header li a:active {
 }
 
 #contact input,
-#contact textarea {
+#contact textarea,
+#biodata input,
+#biodata textarea {
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -120,7 +122,7 @@ header li a:active {
   box-sizing: border-box;
 }
 
-#contact button {
+#contact button, #biodata button {
   margin-top: 10px;
   display: inline-block;
   padding: 10px 24px;
@@ -132,13 +134,13 @@ header li a:active {
   margin-right: 8px;
 }
 
-#contact button[type="submit"] {
+#contact button, #biodata button[type="submit"] {
   background-color: #003366;
   color: #fff;
   font-weight: 600;
 }
 
-#contact button[type="reset"] {
+#contact button, #biodata button[type="reset"] {
   background-color: #b4b4b4;
   color: #272727;
   font-weight: 500;
