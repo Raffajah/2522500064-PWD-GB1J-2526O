@@ -54,7 +54,8 @@ endif;
     </section>
       <section id= "biodata">
       <form action="proses.php"  method=POST>
-        
+         <h2>Biodata saya</h2>
+         
         <label for="txtNim"><span>Nim:</span>
           <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
         </label>
@@ -85,10 +86,12 @@ endif;
         <label for="txtNamaadik"><span>Nama Adik:</span>
           <input type="text" id="txtNamaadik" name="txtNamaadik" placeholder="Masukkan nama adik" required autocomplete="namaadik">
         </label>
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
         
 
       </form>
-      <h2>Biodata saya</h2>
       </section>
     <section id="about">
       <?php

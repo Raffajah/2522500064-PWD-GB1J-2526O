@@ -14,4 +14,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>styling section biodata dan h2</li>
   <li>membuat form di biodata </li>
   <li>membuat form di biodata 10 data </li>
+  <li>styling form css yang atau grouping</li>
 </ol>
