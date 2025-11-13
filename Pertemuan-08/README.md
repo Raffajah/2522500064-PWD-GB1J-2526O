@@ -20,4 +20,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>membuat sesion proses php</li>
   <li>membuat sesion di index php</li>
   <li>membuat variabel di about sesuai dngan form</li>
+  <li>mencoba menyelesaikan tapi gagal</li>
 </ol>

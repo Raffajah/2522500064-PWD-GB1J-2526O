@@ -1,49 +1,18 @@
 <?php
 session_start();
 
-$sesnim = "";
-if (isset($_SESSION["sesnim"])):
-  $sesnim = $_SESSION["sesnim"];
-endif;
-
-$sesnamalengkap = "";
-if (isset($_SESSION["sesnamalengkap"])):
-  $sesnamalengkap = $_SESSION["sesnamalengkap"];
-endif;
-
-$sestempatlahir = "";
-if (isset($_SESSION["sestempatlahir"])):
-  $sestempatlahir = $_SESSION["sestempatlahir"];
-endif;
-$sestanggallahir = "";
-if (isset($_SESSION["sestanggallahir"])):
-  $sestanggallahir = $_SESSION["sestanggalahir"];
-endif;
-$seshobi = "";
-if (isset($_SESSION["seshobi"])):
-  $seshobi = $_SESSION["seshobi"];
-endif;
-$sespasangan = "";
-if (isset($_SESSION["sespasangan"])):
-  $sespasangan = $_SESSION["sespasangan"];
-endif;
-$sespekerjaan = "";
-if (isset($_SESSION["sespekerjaan"])):
-  $sespekerjaan = $_SESSION["sespekerjaan"];
-endif;
-$sesnamaorangtua = "";
-if (isset($_SESSION["sesnamaorangtua"])):
-  $sesnamaorangtua = $_SESSION["sesnamaorangtua"];
-endif;
-$sesnamakakak = "";
-if (isset($_SESSION["sesnamakakak"])):
-  $sesnamakakak = $_SESSION["sesnamakakak"];
-endif;
-$sesnamaadik = "";
-if (isset($_SESSION["sesnamaadik"])):
-  $sesnamaadik = $_SESSION["sesnamaadik"];
-endif;
+$sesnim = $_SESSION["txtnim"] ?? "";
+$sesnamalengkap = $_SESSION["txtnamalengkap"] ?? "";
+$sestempatlahir = $_SESSION["txttempatlahir"] ?? "";
+$sestanggallahir = $_SESSION["txttanggallahir"] ?? "";
+$seshobi = $_SESSION["txthobi"] ?? "";
+$sespasangan = $_SESSION["txtpasangan"] ?? "";
+$sespekerjaan = $_SESSION["txtpekerjaan"] ?? "";
+$sesnamaorangtua = $_SESSION["txtnamaorangtua"] ?? "";
+$sesnamakakak = $_SESSION["txtnamakakak"] ?? "";
+$sesnamaadik = $_SESSION["txtnamaadik"] ?? "";
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -81,38 +50,38 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
       <section id= "biodata">
-      <form action="proses.php"  method=POST>
+      <form action="proses.php"  method="POST">
          <h2>Biodata saya</h2>
 
         <label for="txtNim"><span>Nim:</span>
-          <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
+          <input type="text" id="txtnim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
         </label>
         <label for="txtNamalengkap"><span>Nama Lengkap:</span>
-          <input type="text" id="txtNamalengkap" name="txtNamalengkap" placeholder="Masukkan nama lengkap" required autocomplete="namelengkap">
+          <input type="text" id="txtnamalengkap" name="txtNamalengkap" placeholder="Masukkan nama lengkap" required autocomplete="namelengkap">
         </label>
         <label for="txtTempatlahir"><span>Tempatlahir:</span>
-          <input type="text" id="txtTempatlahir" name="txtTempatlahir" placeholder="Masukkan tempat lahir" required autocomplete="tempatlahir">
+          <input type="text" id="txttempatlahir" name="txtTempatlahir" placeholder="Masukkan tempat lahir" required autocomplete="tempatlahir">
         </label>
         <label for="txtTanggallahir"><span>Tanggallahir:</span>
-          <input type="text" id="txtTanggallahir" name="txtTanggallahir" placeholder="Masukkan tanggal lahir" required autocomplete="tanggallahir">
+          <input type="text" id="txttanggallahir" name="txtTanggallahir" placeholder="Masukkan tanggal lahir" required autocomplete="tanggallahir">
         </label>
         <label for="txtHobi"><span>Hobi:</span>
-          <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan hobi" required autocomplete="hobi">
+          <input type="text" id="txthobi" name="txtHobi" placeholder="Masukkan hobi" required autocomplete="hobi">
         </label>
         <label for="txtPasangan"><span>Pasangan:</span>
-          <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan pasangan" required autocomplete="pasangan">
+          <input type="text" id="txtpasangan" name="txtPasangan" placeholder="Masukkan pasangan" required autocomplete="pasangan">
         </label>
         <label for="txtPekerjaan"><span>Pekerjaan:</span>
-          <input type="text" id="txtPekerjaan" name="txtPekerjaan" placeholder="Masukkan pekerjaan" required autocomplete="pekerjaan">
+          <input type="text" id="txtpekerjaan" name="txtPekerjaan" placeholder="Masukkan pekerjaan" required autocomplete="pekerjaan">
         </label>
         <label for="txtNamaorangtua"><span>Nama Orang Tua:</span>
-          <input type="text" id="txtNamaorangtua" name="txtNamaorangtua" placeholder="Masukkan nama orang tua" required autocomplete="namaorangtua">
+          <input type="text" id="txtnamaorangtua" name="txtNamaorangtua" placeholder="Masukkan nama orang tua" required autocomplete="namaorangtua">
         </label>
         <label for="txtNamakakak"><span>Nama Kakak:</span>
-          <input type="text" id="txtNamakakak" name="txtNamakakak" placeholder="Masukkan nama kakak" required autocomplete="namakakak">
+          <input type="text" id="txtnamakakak" name="txtNamakakak" placeholder="Masukkan nama kakak" required autocomplete="namakakak">
         </label>
         <label for="txtNamaadik"><span>Nama Adik:</span>
-          <input type="text" id="txtNamaadik" name="txtNamaadik" placeholder="Masukkan nama adik" required autocomplete="namaadik">
+          <input type="text" id="txtnamaadik" name="txtNamaadik" placeholder="Masukkan nama adik" required autocomplete="namaadik">
         </label>
 
         <button type="submit">Kirim</button>
@@ -120,6 +89,7 @@ endif;
         
 
       </form>
+
       </section>
     <section id="about">
       <?php
