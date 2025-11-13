@@ -53,7 +53,13 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
       <section id= "biodata">
-      <form action=""></form>
+      <form action="proses.php"  method=POST>
+        
+        <label for="txtNama"><span>Nama:</span>
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+        </label>
+
+      </form>
       <h2>Biodata saya</h2>
       </section>
     <section id="about">

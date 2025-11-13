@@ -12,4 +12,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>melakukan copy file yang diberikan</li>
   <li>membuat section biodata </li>
   <li>styling section biodata dan h2</li>
+  <li>membuat form di biodata </li>
 </ol>
