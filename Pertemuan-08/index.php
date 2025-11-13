@@ -1,19 +1,47 @@
 <?php
 session_start();
 
-$sesnama = "";
-if (isset($_SESSION["sesnama"])):
-  $sesnama = $_SESSION["sesnama"];
+$sesnim = "";
+if (isset($_SESSION["sesnim"])):
+  $sesnim = $_SESSION["sesnim"];
 endif;
 
-$sesemail = "";
-if (isset($_SESSION["sesemail"])):
-  $sesemail = $_SESSION["sesemail"];
+$sesnamalengkap = "";
+if (isset($_SESSION["sesnamalengkap"])):
+  $sesnamalengkap = $_SESSION["sesnamalengkap"];
 endif;
 
-$sespesan = "";
-if (isset($_SESSION["sespesan"])):
-  $sespesan = $_SESSION["sespesan"];
+$sestempatlahir = "";
+if (isset($_SESSION["sestempatlahir"])):
+  $sestempatlahir = $_SESSION["sestempatlahir"];
+endif;
+$sestanggallahir = "";
+if (isset($_SESSION["sestanggallahir"])):
+  $sestanggallahir = $_SESSION["sestanggalahir"];
+endif;
+$seshobi = "";
+if (isset($_SESSION["seshobi"])):
+  $seshobi = $_SESSION["seshobi"];
+endif;
+$sespasangan = "";
+if (isset($_SESSION["sespasangan"])):
+  $sespasangan = $_SESSION["sespasangan"];
+endif;
+$sespekerjaan = "";
+if (isset($_SESSION["sespekerjaan"])):
+  $sespekerjaan = $_SESSION["sespekerjaan"];
+endif;
+$sesnamaorangtua = "";
+if (isset($_SESSION["sesnamaorangtua"])):
+  $sesnamaorangtua = $_SESSION["sesnamaorangtua"];
+endif;
+$sesnamakakak = "";
+if (isset($_SESSION["sesnamakakak"])):
+  $sesnamakakak = $_SESSION["sesnamakakak"];
+endif;
+$sesnamaadik = "";
+if (isset($_SESSION["sesnamaadik"])):
+  $sesnamaadik = $_SESSION["sesnamaadik"];
 endif;
 ?>
 
@@ -55,7 +83,7 @@ endif;
       <section id= "biodata">
       <form action="proses.php"  method=POST>
          <h2>Biodata saya</h2>
-         
+
         <label for="txtNim"><span>Nim:</span>
           <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan nim" required autocomplete="nim">
         </label>
