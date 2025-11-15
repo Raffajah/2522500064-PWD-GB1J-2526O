@@ -22,4 +22,6 @@ hari ini saya belajar
 <li>membuat setting untuk form sisa di java script</li>
 <li>membuat file peghancur nilai.php dan isi nya</li>
 <li>melakukan styling tipis tipis</li>
+<li>..............................</li>
+<li>coba iseng bikin file phyton</li>
 </ol>
