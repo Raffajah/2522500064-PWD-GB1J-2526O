@@ -12,4 +12,5 @@ saya belajar dan mencoba <br>
 <li>membuat jeda teks </li>
 <li>membuat teks ilang dari kanan </li>
 <li>membuat file jam </li>
+<li>mengimpor time dan os </li>
 </ol>
