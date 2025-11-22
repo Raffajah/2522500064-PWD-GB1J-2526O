@@ -17,4 +17,5 @@ saya belajar dan mencoba <br>
 <li>menampilkan jam  </li>
 <li>menampilkan digit untuk led  </li>
 <li>menampilkan print digit untuk led  </li>
+<li>iseng tes doank  </li>
 </ol>
