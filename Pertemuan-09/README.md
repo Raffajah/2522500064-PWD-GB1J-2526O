@@ -15,4 +15,5 @@ saya belajar dan mencoba <br>
 <li>mengimpor time dan os </li>
 <li>membuah animasi infininty </li>
 <li>menampilkan jam  </li>
+<li>menampilkan digit untuk led  </li>
 </ol>
