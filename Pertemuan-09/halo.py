@@ -1,0 +1,1 @@
+print ("halo nama saya rafa alghifari dan saya mencoba membuat file py!")
