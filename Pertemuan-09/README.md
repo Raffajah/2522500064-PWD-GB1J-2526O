@@ -16,4 +16,5 @@ saya belajar dan mencoba <br>
 <li>membuah animasi infininty </li>
 <li>menampilkan jam  </li>
 <li>menampilkan digit untuk led  </li>
+<li>menampilkan print digit untuk led  </li>
 </ol>

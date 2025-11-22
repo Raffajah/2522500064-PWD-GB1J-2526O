@@ -70,5 +70,11 @@ digits = {
 
 while True:
     os.system("cls")
-    print(time.strftime("%H:%M:%S"))
+    now = time.strftime("%H:%M:%S")
+    for row in range(5):
+        line = ""
+        for char in now:
+            line += digits[char][row] + "  "
+        print(line)
+
     time.sleep(1)
