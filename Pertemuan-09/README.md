@@ -6,4 +6,5 @@ saya belajar dan mencoba <br>
 <li>membuat isi file py </li>
 <li>membuat logika jumlah py </li>
 <li>membuat animasi sistem </li>
+<li>membuat animasi teks </li>
 </ol>
