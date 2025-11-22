@@ -7,4 +7,6 @@ saya belajar dan mencoba <br>
 <li>membuat logika jumlah py </li>
 <li>membuat animasi sistem </li>
 <li>membuat animasi teks </li>
+<li>membuat animasi teks </li>
+<li>membuat animasi biar infinity </li>
 </ol>
