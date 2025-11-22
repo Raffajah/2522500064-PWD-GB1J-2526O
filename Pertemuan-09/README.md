@@ -11,4 +11,5 @@ saya belajar dan mencoba <br>
 <li>membuat animasi biar infinity </li>
 <li>membuat jeda teks </li>
 <li>membuat teks ilang dari kanan </li>
+<li>membuat file jam </li>
 </ol>
