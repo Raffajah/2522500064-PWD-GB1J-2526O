@@ -8,3 +8,5 @@ while True:
         sys.stdout.write("\r" + loading_text[:i])
         sys.stdout.flush()
         time.sleep(0.1)
+
+        time.sleep(0.1)

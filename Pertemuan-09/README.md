@@ -9,4 +9,5 @@ saya belajar dan mencoba <br>
 <li>membuat animasi teks </li>
 <li>membuat animasi teks </li>
 <li>membuat animasi biar infinity </li>
+<li>membuat jeda teks </li>
 </ol>
