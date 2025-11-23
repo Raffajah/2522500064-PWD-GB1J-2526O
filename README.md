@@ -1,4 +1,4 @@
-![author](https://img.shields.io/badge/author-Rafaa_Alghifari-aquamarine) <br>
+![author](https://img.shields.io/badge/Author-Rafa_Alghifari-blue) <br>
 #2522500064-PWD-GB1J-25260<br>
 Repository Latihan Pertemuan-1 sampai dengan Pertemuan-16<br>
 Matakuliah Pemrograman Web Dasar<br>
