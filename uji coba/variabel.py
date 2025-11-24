@@ -2,7 +2,7 @@ import time
 import sys
 
 print("\033[36m+--------------------+\033[0m")
-print("\033[36m|   Halo Semua     |\033[0m")
+print("\033[36m|   Halo Semua       |\033[0m")
 print("\033[36m+--------------------+\033[0m")
 
 time.sleep(2)
