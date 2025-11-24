@@ -24,4 +24,5 @@ saya belajar dan mencoba <br>
 <li> variabel py add data diri </li>
 <li> variabel py add import sys </li>
 <li> variabel py add loop cmiw </li>
+<li> variabel py add bingkai </li>
 </ol>

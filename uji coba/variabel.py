@@ -1,8 +1,13 @@
 import time
 import sys
 
-print ("""Halo , Saya Rafa Alghifari
-Disini saya mencoba  menuliskan variabel dengan phyton""")
+print("\033[36m+--------------------+\033[0m")
+print("\033[36m|   Halo Semua     |\033[0m")
+print("\033[36m+--------------------+\033[0m")
+
+time.sleep(2)
+
+print('Disini saya akan memperkenalkan diri saya')
 
 time.sleep(2)
 
