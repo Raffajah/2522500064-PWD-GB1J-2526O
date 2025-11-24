@@ -22,4 +22,5 @@ saya belajar dan mencoba <br>
 <li> rename variabel py add  </li>
 <li> variabel py add  </li>
 <li> variabel py add data diri </li>
+<li> variabel py add import sys </li>
 </ol>
