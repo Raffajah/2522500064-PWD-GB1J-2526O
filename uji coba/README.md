@@ -21,4 +21,5 @@ saya belajar dan mencoba <br>
 <li> web py add  </li>
 <li> rename variabel py add  </li>
 <li> variabel py add  </li>
+<li> variabel py add data diri </li>
 </ol>
