@@ -25,4 +25,5 @@ saya belajar dan mencoba <br>
 <li> variabel py add import sys </li>
 <li> variabel py add loop cmiw </li>
 <li> variabel py add bingkai </li>
+<li> mencoba belajar kode calc py ai </li>
 </ol>
