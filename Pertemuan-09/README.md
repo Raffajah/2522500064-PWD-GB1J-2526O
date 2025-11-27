@@ -23,4 +23,5 @@ rafa <br>
   <li>menambah file fungsi biodata php</li>
   <li>mengganti variabel data di about</li>
   <li>menambah fungsi require</li>
+  <li>menambah file normal agar kembali bersih</li>
 </ol>
