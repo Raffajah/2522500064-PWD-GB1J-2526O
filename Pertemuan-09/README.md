@@ -1,5 +1,5 @@
 # pertemuan-09
-
+rafa <br>
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
   <li>Membuat form untuk biodata sederhana mahasiswa</li>
@@ -15,4 +15,5 @@
   <li>array proses php</li>
   <li>sesion array biodata</li>
   <li>sesion biodata di index php dan field config</li>
+  <li>menghapus data</li>
 </ol>
