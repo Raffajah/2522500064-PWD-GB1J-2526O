@@ -17,4 +17,5 @@ rafa <br>
   <li>sesion biodata di index php dan field config</li>
   <li>menghapus data</li>
   <li>mencoba mencari eror</li>
+  <li>kurang session start di php</li>
 </ol>

@@ -1,5 +1,9 @@
 <?php
-$biodata = $_SESSION["biodata"] ?? [];
+session_start();
+$sesnama = $_SESSION["sesnama"] ?? "";
+$sesemail = $_SESSION["sesemail"] ?? "";
+$sespesan = $_SESSION["sespesan"] ?? "";
+$arrBiodata = $_SESSION["biodata"] ?? [];
 $fieldConfig = [
   "nim" => ["label" => "NIM:", "suffix" => ""],
   "nama" => ["label" => "Nama Lengkap:", "suffix" => ""],
@@ -100,10 +104,10 @@ $fieldConfig = [
 
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?php foreach ($fieldConfig as $kunci => $metadata): ?> 
+     <?php foreach ($fieldConfig as $kunci => $metadata): ?>
         <p>
           <strong><?= $metadata["label"] ?></strong>
-          <?= htmlspecialchars($biodata[$kunci] ?? "") ?>
+          <?= htmlspecialchars($arrBiodata[$kunci]?? "") ?>
           <?= $metadata["suffix"] ?>
         </p>
       <?php endforeach; ?>
