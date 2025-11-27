@@ -49,7 +49,7 @@ $fieldConfig = [
       <h2>Selamat Datang</h2>
       <?php
       echo "halo dunia!<br>";
-      echo "nama saya hadi";
+      echo "Halo :>";
       ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
@@ -144,7 +144,7 @@ $fieldConfig = [
   </main>
 
   <footer>
-    <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
+    <p>&copy; 2025 Rafa Alghifari [2522500064]</p>
   </footer>
 
   <script src="script.js"></script>

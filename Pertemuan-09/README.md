@@ -24,4 +24,5 @@ rafa <br>
   <li>mengganti variabel data di about</li>
   <li>menambah fungsi require</li>
   <li>menambah file normal agar kembali bersih</li>
+  <li>copy item dari file versi saya</li>
 </ol>
