@@ -18,4 +18,5 @@ rafa <br>
   <li>menghapus data</li>
   <li>mencoba mencari eror</li>
   <li>kurang session start di php</li>
+  <li>menambah file fungsi php</li>
 </ol>
