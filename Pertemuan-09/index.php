@@ -1,5 +1,7 @@
 <?php
 session_start();
+#require_once "fungsi.php";
+require_once __DIR__ . '/fungsi.php';
 $sesnama = $_SESSION["sesnama"] ?? "";
 $sesemail = $_SESSION["sesemail"] ?? "";
 $sespesan = $_SESSION["sespesan"] ?? "";

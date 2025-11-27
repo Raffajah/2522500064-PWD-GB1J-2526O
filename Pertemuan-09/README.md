@@ -22,4 +22,5 @@ rafa <br>
   <li>menambah file fungsi date php</li>
   <li>menambah file fungsi biodata php</li>
   <li>mengganti variabel data di about</li>
+  <li>menambah fungsi require</li>
 </ol>
