@@ -25,4 +25,5 @@ rafa <br>
   <li>menambah fungsi require</li>
   <li>menambah file normal agar kembali bersih</li>
   <li>copy item dari file versi saya</li>
+  <li>merapikan data </li>
 </ol>

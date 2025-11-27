@@ -1,115 +1,59 @@
-<?php
-session_start();
-#require_once "fungsi.php";
-require_once __DIR__ . '/fungsi.php';
-$sesnama = $_SESSION["sesnama"] ?? "";
-$sesemail = $_SESSION["sesemail"] ?? "";
-$sespesan = $_SESSION["sespesan"] ?? "";
-$arrBiodata = $_SESSION["biodata"] ?? [];
-$fieldConfig = [
-  "nim" => ["label" => "NIM:", "suffix" => ""],
-  "nama" => ["label" => "Nama Lengkap:", "suffix" => ""],
-  "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
-  "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
-  "hobi" => ["label" => "Hobi:", "suffix" => ""],
-  "pasangan" => ["label" => "Pasangan:", "suffix" => ""],
-  "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => ""],
-  "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
-  "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
-  "adik" => ["label" => "Nama Adik:", "suffix" => ""]
-];
-?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judul Halaman</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web saya</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <h1>Ini Header</h1>
-    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
-      &#9776;
-    </button>
-    <nav>
-      <ul>
-        <li><a href="#home">Beranda</a></li>
-        <li><a href="#about">Tentang</a></li>
-        <li><a href="#contact">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="home">
-      <h2>Selamat Datang</h2>
-      <?php
-      echo "halo dunia!<br>";
-      echo "Halo :>";
-      ?>
-      <p>Ini contoh paragraf HTML.</p>
+    <header>
+        <div class="headercontainer">
+        <button class="menu-togle" id="menuToggle"aria-label="Toggle Navigation">&#9776;</button>
+         <h1>Halo Semua ^w^</h1>
+        <img src="220290.gif" alt="..." class="miku">
+        </div>
+            <nav>
+                <ul>
+                    <li> <a href="#home">Beranda</a></li>
+                    <li> <a href="#about">Tentang</a></li>
+                    <li> <a href="#contact">Kontak</a></li>
+                    <li> <a href="#ipk">Nilai</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di web saya.</h2>
+            <?php echo "ini rafa yang berbicara dengan pengetikan php. <br> ";
+            echo "kayak ni ternyata php oq rada lupa ku nambah echo e hha"; ?>
+        </section>
+        <section id ="about">
+            <?php
+            $Nim = '2522500064';
+            $Nama = 'Rafa Alghifari';
+            $Tempatlahir = 'Pangkalpinang';
+            $Tanggallahir = '12 November 2006';
+            $Hoby = 'Menggambar';
+            $Pasangan = 'kagak ada';
+            $Pekerjaan = 'Pengusaha sukses';
+            $Namaibu = 'Umi Kalsum';
+            $Namaayah = 'Agus Widiyanto';
+            $Namaadek = 'Retno Dwi Ayu dan Garini Puspa Ayu';
+            ?>
+        <h2>Tentang Saya </h2>
+        <p><strong>Nim :</strong><?php echo $Nim; ?> &#128221;</p>
+        <p><strong>Nama Lengkap :</strong> <?php echo $Nama; ?> &#129487;</p>
+        <p><strong>Tempat Lahir :</strong> <?php echo $Tempatlahir; ?>&#127751;</p>
+        <p><strong>Tanggal Lahir :</strong> <?php echo $Tanggallahir; ?>&#128292;</p>
+        <p><strong>Hobby :</strong> <?php echo $Hoby; ?>&#128526;</p>
+        <p><strong>Pasangan :</strong> <?php echo $Pasangan; ?>&#128516;</p>
+        <p><strong>Pekerjaan :</strong> <?php echo $Pekerjaan; ?>&#128513;</p>
+        <p><strong>Nama Ayah :</strong> <?php echo $Namaayah; ?>&#128104;</p>
+        <p><strong>Nama Ibu :</strong> <?php echo $Namaibu; ?>&#128105;</p>
+        <P><strong>Nama Adek :</strong> <?php echo $Namaadek;?> &#128103;</P>
     </section>
-
-    <section id="biodata">
-      <h2>Biodata Sederhana Mahasiswa</h2>
-      <form action="proses.php" method="POST">
-
-        <label for="txtNim"><span>NIM:</span>
-          <input type="text" id="txtNim" name="txtNim" placeholder="Masukkan NIM" required>
-        </label>
-
-        <label for="txtNmLengkap"><span>Nama Lengkap:</span>
-          <input type="text" id="txtNmLengkap" name="txtNmLengkap" placeholder="Masukkan Nama Lengkap" required>
-        </label>
-
-        <label for="txtT4Lhr"><span>Tempat Lahir:</span>
-          <input type="text" id="txtT4Lhr" name="txtT4Lhr" placeholder="Masukkan Tempat Lahir" required>
-        </label>
-
-        <label for="txtTglLhr"><span>Tanggal Lahir:</span>
-          <input type="text" id="txtTglLhr" name="txtTglLhr" placeholder="Masukkan Tanggal Lahir" required>
-        </label>
-
-        <label for="txtHobi"><span>Hobi:</span>
-          <input type="text" id="txtHobi" name="txtHobi" placeholder="Masukkan Hobi" required>
-        </label>
-
-        <label for="txtPasangan"><span>Pasangan:</span>
-          <input type="text" id="txtPasangan" name="txtPasangan" placeholder="Masukkan Pasangan" required>
-        </label>
-
-        <label for="txtKerja"><span>Pekerjaan:</span>
-          <input type="text" id="txtKerja" name="txtKerja" placeholder="Masukkan Pekerjaan" required>
-        </label>
-
-        <label for="txtNmOrtu"><span>Nama Orang Tua:</span>
-          <input type="text" id="txtNmOrtu" name="txtNmOrtu" placeholder="Masukkan Nama Orang Tua" required>
-        </label>
-
-        <label for="txtNmKakak"><span>Nama Kakak:</span>
-          <input type="text" id="txtNmKakak" name="txtNmKakak" placeholder="Masukkan Nama Kakak" required>
-        </label>
-
-         <label for="txtNmAdik"><span>Nama Adik:</span>
-          <input type="text" id="txtNmAdik" name="txtNmAdik" placeholder="Masukkan Nama Adik" required>
-        </label>
-
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
-      </form>
-
-    </section>
-
-    <section id="about">
-      <h2>Tentang Saya</h2>
-     <?= tampilkanBiodata($fieldConfig, $arrBiodata); ?>
-    </section>
-
-    <section id="contact">
+     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">
 
@@ -126,28 +70,15 @@ $fieldConfig = [
           <small id="charCount">0/200 karakter</small>
         </label>
 
+
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-
-      <?php if (!empty($sesnama)): ?>
-        <br><hr>
-        <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
-      <?php endif; ?>
-
-
-
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Rafa Alghifari [2522500064]</p>
-  </footer>
-
-  <script src="script.js"></script>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Rafa Alghifari [2522500064]</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
