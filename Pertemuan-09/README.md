@@ -20,4 +20,5 @@ rafa <br>
   <li>kurang session start di php</li>
   <li>menambah file fungsi php</li>
   <li>menambah file fungsi date php</li>
+  <li>menambah file fungsi biodata php</li>
 </ol>
