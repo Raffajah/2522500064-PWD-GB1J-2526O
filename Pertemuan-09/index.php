@@ -1,16 +1,16 @@
 <?php
 $biodata = $_SESSION["biodata"] ?? [];
 $fieldConfig = [
-    "nim"      => ["label" => "NIM:",            "suffix" => ""],
-    "nama"     => ["label" => "Nama Lengkap:",   "suffix" => " &#128526;"],
-    "tempat"   => ["label" => "Tempat Lahir:",   "suffix" => ""],
-    "tanggal"  => ["label" => "Tanggal Lahir:",  "suffix" => ""],
-    "hobi"     => ["label" => "Hobi:",           "suffix" => " &#127926;"],
-    "pasangan" => ["label" => "Pasangan:",       "suffix" => " &hearts;"],
-    "pekerjaan"=> ["label" => "Pekerjaan:",      "suffix" => " &copy; 2025"],
-    "ortu"     => ["label" => "Nama Orang Tua:", "suffix" => ""],
-    "kakak"    => ["label" => "Nama Kakak:",     "suffix" => ""],
-    "adik"     => ["label" => "Nama Adik:",      "suffix" => ""],
+  "nim" => ["label" => "NIM:", "suffix" => ""],
+  "nama" => ["label" => "Nama Lengkap:", "suffix" => ""],
+  "tempat" => ["label" => "Tempat Lahir:", "suffix" => ""],
+  "tanggal" => ["label" => "Tanggal Lahir:", "suffix" => ""],
+  "hobi" => ["label" => "Hobi:", "suffix" => ""],
+  "pasangan" => ["label" => "Pasangan:", "suffix" => ""],
+  "pekerjaan" => ["label" => "Pekerjaan:", "suffix" => ""],
+  "ortu" => ["label" => "Nama Orang Tua:", "suffix" => ""],
+  "kakak" => ["label" => "Nama Kakak:", "suffix" => ""],
+  "adik" => ["label" => "Nama Adik:", "suffix" => ""]
 ];
 ?>
 <!DOCTYPE html>
@@ -100,12 +100,12 @@ $fieldConfig = [
 
     <section id="about">
       <h2>Tentang Saya</h2>
-    
       <?php foreach ($fieldConfig as $kunci => $metadata): ?> 
-      <p><strong>
-      <?= $metadata["label"] ?>
-      </strong> <?= $htmlspecialchars($biodata[$kunci]??"") ?>
-      <?= $metadata["suffix"] ?></p>
+        <p>
+          <strong><?= $metadata["label"] ?></strong>
+          <?= htmlspecialchars($biodata[$kunci] ?? "") ?>
+          <?= $metadata["suffix"] ?>
+        </p>
       <?php endforeach; ?>
     </section>
 

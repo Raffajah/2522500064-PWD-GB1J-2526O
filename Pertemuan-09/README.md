@@ -16,4 +16,5 @@ rafa <br>
   <li>sesion array biodata</li>
   <li>sesion biodata di index php dan field config</li>
   <li>menghapus data</li>
+  <li>mencoba mencari eror</li>
 </ol>
