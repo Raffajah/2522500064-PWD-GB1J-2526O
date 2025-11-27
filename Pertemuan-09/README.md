@@ -19,4 +19,5 @@ rafa <br>
   <li>mencoba mencari eror</li>
   <li>kurang session start di php</li>
   <li>menambah file fungsi php</li>
+  <li>menambah file fungsi date php</li>
 </ol>
