@@ -1,5 +1,5 @@
 # pertemuan-09
-rafa <br>
+
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
   <li>Membuat form untuk biodata sederhana mahasiswa</li>
@@ -11,19 +11,4 @@ rafa <br>
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-  <li>copy item dari file yang diberikan</li>
-  <li>array proses php</li>
-  <li>sesion array biodata</li>
-  <li>sesion biodata di index php dan field config</li>
-  <li>menghapus data</li>
-  <li>mencoba mencari eror</li>
-  <li>kurang session start di php</li>
-  <li>menambah file fungsi php</li>
-  <li>menambah file fungsi date php</li>
-  <li>menambah file fungsi biodata php</li>
-  <li>mengganti variabel data di about</li>
-  <li>menambah fungsi require</li>
-  <li>menambah file normal agar kembali bersih</li>
-  <li>copy item dari file versi saya</li>
-  <li>merapikan data </li>
 </ol>
