@@ -1,5 +1,5 @@
 # pertemuan-09
-
+rafa <br>
 <ol>
   <li>Hasil UTS untuk bahan pertemuan-09</li>
   <li>Membuat form untuk biodata sederhana mahasiswa</li>
@@ -11,4 +11,7 @@
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-</ol>
+  <li>copy item dari file yang diberikan</li>
+  <li>membuat variabel arry biodata</li>
+  <li>membuat sesion variabel ary dan header location</li>
+  </ol>
