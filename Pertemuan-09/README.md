@@ -20,4 +20,5 @@ rafa <br>
   <li>membuat fungsi php bersihkan , fungsi format tanggal , fungsi biodata</li>
   <li>membuat loop lebih singkat di about</li>
   <li>mencari salah variabel dan yey selesai</li>
+  <li>menambah file hancur dan sesi bersih</li>
   </ol>
