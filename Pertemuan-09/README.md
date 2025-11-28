@@ -17,4 +17,5 @@ rafa <br>
   <li>membuat sesion ary di index php</li>
   <li>membuat looping foreach di about index.php</li>
   <li>membuat fungsi php</li>
+  <li>membuat fungsi php bersihkan , fungsi format tanggal , fungsi biodata</li>
   </ol>
