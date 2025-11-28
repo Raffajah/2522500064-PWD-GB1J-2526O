@@ -14,4 +14,5 @@ rafa <br>
   <li>copy item dari file yang diberikan</li>
   <li>membuat variabel arry biodata</li>
   <li>membuat sesion variabel ary dan header location</li>
+  <li>membuat sesion ary di index php</li>
   </ol>
