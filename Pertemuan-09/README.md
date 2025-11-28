@@ -18,4 +18,5 @@ rafa <br>
   <li>membuat looping foreach di about index.php</li>
   <li>membuat fungsi php</li>
   <li>membuat fungsi php bersihkan , fungsi format tanggal , fungsi biodata</li>
+  <li>membuat loop lebih singkat di about</li>
   </ol>
