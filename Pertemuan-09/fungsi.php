@@ -20,6 +20,6 @@ $nilai = bersihkan($arr[$k] ?? '');
 $suffix = $v["suffix"];
 $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>";
 }
-return $html;
+return $html;
 }
 ?>

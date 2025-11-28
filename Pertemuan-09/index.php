@@ -1,7 +1,7 @@
 <?php
 session_start();
-$biodata = $_SESSION["biodata"] ?? [];
-
+require_once "fungsi.php";
+$arryBiodata = $_SESSION["biodata"] ?? [];
 $fieldConfig = [
     "nim"       => ["label" => "NIM:",            "suffix" => ""],
     "nama"      => ["label" => "Nama Lengkap:",   "suffix" => " &#128526;"],
@@ -103,7 +103,7 @@ $fieldConfig = [
 
     <section id="about">
       <h2>Tentang Saya</h2>
-    <?= tampilkanBiodata($fieldConfig, $biodata); ?>
+    <?= tampilkanBiodata($fieldConfig, $arryBiodata); ?>
     </section>
 
     <section id="contact">
