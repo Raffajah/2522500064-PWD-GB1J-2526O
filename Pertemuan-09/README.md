@@ -15,4 +15,5 @@ rafa <br>
   <li>membuat variabel arry biodata</li>
   <li>membuat sesion variabel ary dan header location</li>
   <li>membuat sesion ary di index php</li>
+  <li>membuat looping foreach di about index.php</li>
   </ol>
