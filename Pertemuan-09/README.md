@@ -22,4 +22,5 @@ rafa <br>
   <li>mencari salah variabel dan yey selesai</li>
   <li>menambah file hancur dan sesi bersih</li>
   <li>menambah array contact</li>
+  <li>menambah sesi contact</li>
   </ol>

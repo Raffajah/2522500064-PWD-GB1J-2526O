@@ -20,5 +20,6 @@ $arryBiodata = [
 ];
 
 $_SESSION["biodata"] = $arryBiodata;
+$_SESSION["contact"] = $arryContact;
 header("location: index.php#about");
 ?>
