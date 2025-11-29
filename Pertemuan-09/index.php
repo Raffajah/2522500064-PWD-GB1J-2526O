@@ -107,14 +107,7 @@ require_once __DIR__ . '/fungsi.php';
       <h2>Tentang Saya</h2>
     <?= tampilkanBiodata($fieldConfig, $arryBiodata); ?>
     </section>
-    <?php
-    $arryContact = $_SESSION["contact"] ??[];
-    $fieldContact = [
-    "namacontact"       => ["label" => "Nama:",            "suffix" => ""], 
-    "emailcontact"       => ["label" => "Email:",            "suffix" => ""], 
-    "pesancontact"       => ["label" => "Pesan:",            "suffix" => ""] 
-    ];
-    ?>
+
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">
@@ -136,7 +129,14 @@ require_once __DIR__ . '/fungsi.php';
         <button type="reset">Batal</button>
       </form>
 
-      
+       <?php
+    $arryContact = $_SESSION["contact"] ??[];
+    $fieldContact = [
+    "namacontact"       => ["label" => "Nama:",            "suffix" => ""], 
+    "emailcontact"       => ["label" => "Email:",            "suffix" => ""], 
+    "pesancontact"       => ["label" => "Pesan:",            "suffix" => ""],
+    ];
+    ?>      
         <br><hr>
         <h2>Yang menghubungi kami</h2>
        <?= tampilkanContact($fieldContact, $arryContact); ?>

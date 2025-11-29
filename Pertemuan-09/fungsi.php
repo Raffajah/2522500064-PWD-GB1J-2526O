@@ -22,6 +22,7 @@ $html .= "<p><strong>{$label}</strong> {$nilai}{$suffix}</p>";
 }
 return $html;
 }
+
 function tampilkanContact($conf, $arr)
 {
 $html = "";
