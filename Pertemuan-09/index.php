@@ -2,19 +2,6 @@
 session_start();
 #require_once "fungsi.php";
 require_once __DIR__ . '/fungsi.php';
-$arryBiodata = $_SESSION["biodata"] ?? [];
-$fieldConfig = [
-    "nim"       => ["label" => "NIM:",            "suffix" => ""],
-    "nama"      => ["label" => "Nama Lengkap:",   "suffix" => ""],
-    "tempat"    => ["label" => "Tempat Lahir:",   "suffix" => ""],
-    "tanggal"   => ["label" => "Tanggal Lahir:",  "suffix" => ""],
-    "hobi"      => ["label" => "Hobi:",           "suffix" => ""],
-    "pasangan"  => ["label" => "Pasangan:",       "suffix" => ""],
-    "pekerjaan" => ["label" => "Pekerjaan:",      "suffix" => ""],
-    "ortu"      => ["label" => "Nama Orang Tua:", "suffix" => ""],
-    "kakak"     => ["label" => "Nama Kakak:",     "suffix" => ""],
-    "adik"      => ["label" => "Nama Adik:",      "suffix" => ""],
-];
 ?>
 
 <!DOCTYPE html>
@@ -101,12 +88,33 @@ $fieldConfig = [
       </form>
 
     </section>
-
+    <?php
+    $arryBiodata = $_SESSION["biodata"] ?? [];
+    $fieldConfig = [
+    "nim"       => ["label" => "NIM:",            "suffix" => ""],
+    "nama"      => ["label" => "Nama Lengkap:",   "suffix" => ""],
+    "tempat"    => ["label" => "Tempat Lahir:",   "suffix" => ""],
+    "tanggal"   => ["label" => "Tanggal Lahir:",  "suffix" => ""],
+    "hobi"      => ["label" => "Hobi:",           "suffix" => ""],
+    "pasangan"  => ["label" => "Pasangan:",       "suffix" => ""],
+    "pekerjaan" => ["label" => "Pekerjaan:",      "suffix" => ""],
+    "ortu"      => ["label" => "Nama Orang Tua:", "suffix" => ""],
+    "kakak"     => ["label" => "Nama Kakak:",     "suffix" => ""],
+    "adik"      => ["label" => "Nama Adik:",      "suffix" => ""],
+    ];
+    ?>
     <section id="about">
       <h2>Tentang Saya</h2>
     <?= tampilkanBiodata($fieldConfig, $arryBiodata); ?>
     </section>
-
+    <?php
+    $arryContact = $_SESSION["contact"] ??[];
+    $fieldContact = [
+    "namacontact"       => ["label" => "Nama:",            "suffix" => ""], 
+    "emailcontact"       => ["label" => "Email:",            "suffix" => ""], 
+    "pesancontact"       => ["label" => "Pesan:",            "suffix" => ""] 
+    ];
+    ?>
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">

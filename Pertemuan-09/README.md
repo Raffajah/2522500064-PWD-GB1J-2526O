@@ -23,4 +23,5 @@ rafa <br>
   <li>menambah file hancur dan sesi bersih</li>
   <li>menambah array contact</li>
   <li>menambah sesi contact</li>
+  <li>menambah variabel contact</li>
   </ol>
