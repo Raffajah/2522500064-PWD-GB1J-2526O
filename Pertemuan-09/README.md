@@ -24,4 +24,5 @@ rafa <br>
   <li>menambah array contact</li>
   <li>menambah sesi contact</li>
   <li>menambah variabel contact</li>
+  <li>menambah variabel tampilan contact</li>
   </ol>
