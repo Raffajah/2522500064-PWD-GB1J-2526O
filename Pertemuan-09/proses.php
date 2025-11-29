@@ -3,7 +3,7 @@ session_start();
 $arryContact = [
 "namacontact" => $_POST["txtNama"] ??"",
 "emailcontact" => $_POST["txtEmail"] ??"",
-"Pesancontact" => $_POST["txtPesan"] ??""
+"pesancontact" => $_POST["txtPesan"] ??""
 ];
 
 $arryBiodata = [
