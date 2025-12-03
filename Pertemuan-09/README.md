@@ -26,4 +26,5 @@ rafa <br>
   <li>menambah variabel contact</li>
   <li>menambah variabel tampilan contact</li>
   <li>menambah variabel  contact fungsi.php</li>
+  <li>menambah if agar form biodata dan contact tidak hilang</li>
   </ol>
