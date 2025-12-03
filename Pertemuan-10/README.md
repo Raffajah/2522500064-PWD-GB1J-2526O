@@ -4,4 +4,5 @@ kamis, 04 Desember 2025<br>
 <li>copy item yang diberikan</li>
 <li>add file koneksi php</li>
 <li>membuat connect php dengan database</li>
+<li>membuat database db_pwd2025 php my admin</li>
 </ol>
