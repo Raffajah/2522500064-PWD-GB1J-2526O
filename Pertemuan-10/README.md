@@ -12,4 +12,5 @@ kamis, 04 Desember 2025<br>
 <li>membuat 3 record</li>
 <li>duplicat read ke read inc</li>
 <li>form comtact read inc</li>
+<li>include read inc index.php</li>
 </ol>
