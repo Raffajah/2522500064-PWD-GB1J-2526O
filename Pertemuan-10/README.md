@@ -14,4 +14,5 @@ kamis, 04 Desember 2025<br>
 <li>form comtact read inc</li>
 <li>include read inc index.php</li>
 <li>beres</li>
+<li>menambah file db_pwd2025 sql</li>
 </ol>
