@@ -10,4 +10,5 @@ kamis, 04 Desember 2025<br>
 <li>read php dengan koneksi php ke phpmyadmin</li>
 <li>membuat record</li>
 <li>membuat 3 record</li>
+<li>duplicat read ke read inc</li>
 </ol>
