@@ -13,4 +13,5 @@ kamis, 04 Desember 2025<br>
 <li>duplicat read ke read inc</li>
 <li>form comtact read inc</li>
 <li>include read inc index.php</li>
+<li>beres</li>
 </ol>
