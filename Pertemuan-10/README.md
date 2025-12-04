@@ -7,4 +7,5 @@ kamis, 04 Desember 2025<br>
 <li>membuat database db_pwd2025 php my admin</li>
 <li>membuat database tabel menu</li>
 <li>add file read php</li>
+<li>read php dengan koneksi php ke phpmyadmin</li>
 </ol>
