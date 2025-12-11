@@ -9,4 +9,5 @@ rafa alghifari <br>
 <li>sesion request method </li>
 <li>ambil data dari post </li>
 <li>menambah validasi dari proses.php </li>
+<li>menambah insert table </li>
 </ol>
