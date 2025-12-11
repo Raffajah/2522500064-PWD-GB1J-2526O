@@ -17,14 +17,21 @@ $eror = [];
 
 if ($nama === "") {
     $eror[] = "Nama harus diisi!";
+    /*nama*/
+}elseif (strlen($nama) < 3) {
+    $eror[] = "Nama minimal 3 karakter!";
 }
+
 if ($email === "") {
     $eror[] = "Email harus diisi!";
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $eror[] = "Format email tidak valid!";
 }
 if ($pesan === "") {
-    $eror[] = "Pesan harus diisi!";
+    $eror[] = "Pesan harus diisi!"; 
+    /*pesan*/
+} elseif (strlen($pesan) < 10) {
+    $eror[] = "Pesan minimal 10 karakter!";
 }
 
 if (!empty($eror)) {
