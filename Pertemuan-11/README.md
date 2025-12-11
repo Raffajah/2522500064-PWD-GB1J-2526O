@@ -11,4 +11,5 @@ rafa alghifari <br>
 <li>menambah validasi dari proses.php </li>
 <li>menambah insert table </li>
 <li>mencari eror </li>
+<li>menambah kolom nomor urut  </li>
 </ol>
