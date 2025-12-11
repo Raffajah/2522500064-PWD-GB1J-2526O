@@ -1,12 +1,12 @@
 <?php
 session_start();
 
-$arrContact = [
-  "nama" => $_POST["txtNama"] ?? "",
-  "email" => $_POST["txtEmail"] ?? "",
-  "pesan" => $_POST["txtPesan"] ?? ""
-];
-$_SESSION["contact"] = $arrContact;
+if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+  $_SESSION["error"] = "Akses tidak valid!";
+  redirect_ke("index.php#contact");
+  exit();
+}
+
 
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",

@@ -6,4 +6,5 @@ rafa alghifari <br>
 <li>menambah flash atau sinar dari mession </li>
 <li>menambah tampilan flash pesan </li>
 <li>menambah tampilan nilai lama dari form </li>
+<li>sesion request method </li>
 </ol>
