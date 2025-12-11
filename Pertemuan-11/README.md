@@ -16,4 +16,5 @@ rafa alghifari <br>
 <li>menambah else if nama dan pesan  </li>
 <li>mencari kode typo </li>
 <li>menambah captcha di index sebelum submit </li>
+<li>menambah validasi captcha di proses php </li>
 </ol>

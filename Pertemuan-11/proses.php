@@ -15,6 +15,15 @@ $pesan = trim($_POST["txtPesan"] ?? '');
 
 $eror = [];
 
+$captcha = trim($_POST["captcha"] ?? '');
+
+if ($captcha === "") {
+    $eror[] = "Captcha harus diisi!";
+} elseif ($captcha != 5) {
+    $eror[] = "Jawaban captcha salah!";
+}
+
+
 if ($nama === "") {
     $eror[] = "Nama harus diisi!";
     /*nama*/
