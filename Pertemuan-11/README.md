@@ -15,4 +15,5 @@ rafa alghifari <br>
 <li>menambah tampilan nomor urut  </li>
 <li>menambah else if nama dan pesan  </li>
 <li>mencari kode typo </li>
+<li>menambah captcha di index sebelum submit </li>
 </ol>
