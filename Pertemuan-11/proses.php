@@ -46,7 +46,7 @@ $sql = "INSERT INTO tbl_tamu (cnama, cemail, cpesan) VALUES (?, ?, ?)";
 $stmt = mysqli_prepare($conn, $sql);
 
 if (!$stmt) {
-    $_SESSION['flash_error'] = 'Terjadi kesalahan sistem.';
+    $_SESSION['sinar_error'] = 'Terjadi kesalahan sistem.';
     redirect_ke('index.php#contact');
     exit;
 }

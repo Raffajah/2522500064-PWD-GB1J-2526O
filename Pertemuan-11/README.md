@@ -14,4 +14,5 @@ rafa alghifari <br>
 <li>menambah kolom nomor urut  </li>
 <li>menambah tampilan nomor urut  </li>
 <li>menambah else if nama dan pesan  </li>
+<li>mencari kode typo </li>
 </ol>
