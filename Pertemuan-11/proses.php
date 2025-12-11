@@ -1,6 +1,7 @@
 <?php
 session_start();
-require_once "koneksi.php";  // pastikan $conn ada
+require_once "koneksi.php";
+require_once "fungsi.php";
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     $_SESSION["error"] = "Akses tidak valid!";
@@ -47,8 +48,9 @@ mysqli_stmt_bind_param($stmt, "sss", $nama, $email, $pesan);
 
 if (mysqli_stmt_execute($stmt)) {
     unset($_SESSION["old"]);
-    redirect_ke("index.php#contact");
     $_SESSION["sinar_sukses"] = "Terima kasih, pesan Anda telah kami terima.";
+    redirect_ke("index.php#contact");
+    exit;
 } else {
   $_SESSION['old'] = [
     'nama' => $nama,
@@ -57,6 +59,7 @@ if (mysqli_stmt_execute($stmt)) {
   ];
   $_SESSION["sinar_error"] = "Gagal mengirim pesan. Silakan coba lagi.";
   redirect_ke("index.php#contact");
+  exit;
 }
 mysqli_stmt_close($stmt);
 
