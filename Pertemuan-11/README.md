@@ -10,5 +10,4 @@ rafa alghifari <br>
 <li>ambil data dari post </li>
 <li>menambah validasi dari proses.php </li>
 <li>menambah insert table </li>
-<li>menambah file bersih </li>
 </ol>
