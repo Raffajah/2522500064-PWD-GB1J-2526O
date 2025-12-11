@@ -10,6 +10,29 @@ $nama = bersihkan($_POST["txtNama"] ?? "");
 $email = bersihkan($_POST["txtEmail"] ?? "");
 $pesan = bersihkan($_POST["txtPesan"] ?? "");
 
+$eror =[];
+if ($nama === "") {
+  $eror[] = "Nama harus diisi!";
+}
+if ($email === "") {
+  $eror[] = "Email harus diisi!";
+} elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  $eror[] = "Format email tidak valid!";
+}
+if ($pesan === "") {
+  $eror[] = "Pesan harus diisi!";
+}
+if (!empty($eror)) {
+  $_SESSION["sinar_error"] = implode("<br>", $eror);
+  $_SESSION["old"] = [
+    "nama" => $nama,
+    "email" => $email,
+    "pesan" => $pesan
+  ];
+  redirect_ke("index.php#contact");
+  exit();
+}
+
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
   "nama" => $_POST["txtNmLengkap"] ?? "",

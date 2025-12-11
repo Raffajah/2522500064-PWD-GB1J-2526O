@@ -8,4 +8,5 @@ rafa alghifari <br>
 <li>menambah tampilan nilai lama dari form </li>
 <li>sesion request method </li>
 <li>ambil data dari post </li>
+<li>menambah validasi dari proses.php </li>
 </ol>
