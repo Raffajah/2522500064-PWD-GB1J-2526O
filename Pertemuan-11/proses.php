@@ -6,7 +6,9 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
   redirect_ke("index.php#contact");
   exit();
 }
-
+$nama = bersihkan($_POST["txtNama"] ?? "");
+$email = bersihkan($_POST["txtEmail"] ?? "");
+$pesan = bersihkan($_POST["txtPesan"] ?? "");
 
 $arrBiodata = [
   "nim" => $_POST["txtNim"] ?? "",
