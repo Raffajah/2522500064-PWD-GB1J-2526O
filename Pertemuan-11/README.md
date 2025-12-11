@@ -5,4 +5,5 @@ rafa alghifari <br>
 <li>update file fungsi </li>
 <li>menambah flash atau sinar dari mession </li>
 <li>menambah tampilan flash pesan </li>
+<li>menambah tampilan nilai lama dari form </li>
 </ol>
