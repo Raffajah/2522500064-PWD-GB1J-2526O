@@ -3,4 +3,5 @@ rafa alghifari <br>
 <ol>
 <li>copy item </li>
 <li>update file fungsi </li>
+<li>menambah flash atau sinar dari mession </li>
 </ol>
