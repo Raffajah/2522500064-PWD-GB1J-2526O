@@ -9,9 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     exit;
 }
 
-$nama  = trim($_POST["txtNama"] ?? '');
-$email = trim($_POST["txtEmail"] ?? '');
-$pesan = trim($_POST["txtPesan"] ?? '');
+$nama  = bersihkan($_POST["txtNama"] ?? '');
+$email = bersihkan($_POST["txtEmail"] ?? '');
+$pesan = bersihkan($_POST["txtPesan"] ?? '');
 
 $eror = [];
 
