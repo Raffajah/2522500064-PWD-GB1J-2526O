@@ -20,4 +20,5 @@ rafa alghifari <br>
 <li>menambah kolom created at </li>
 <li>selesai menambah field crate di php my admin dan beres </li>
 <li>upgrade local host </li>
+<li>menambah require fungsi di readinc </li>
 </ol>

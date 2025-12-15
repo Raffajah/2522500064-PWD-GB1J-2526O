@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/fungsi.php';
 require 'koneksi.php';
 
 $fieldContact = [
@@ -21,6 +22,7 @@ if (!$q) {
             "nama"  => $row["cnama"]  ?? "",
             "email" => $row["cemail"] ?? "",
             "pesan" => $row["cpesan"] ?? "",
+            
         ];
 
         echo tampilkanBiodata($fieldContact, $arrContact);
