@@ -6,4 +6,5 @@ rafa alghifari <br>
 <li>menambah sinar di read php</li>
 <li>menambah edit php</li>
 <li>menambah tampilan form lama yang dibaca dari cid</li>
+<li>menambah file update php</li>
 </ol>
