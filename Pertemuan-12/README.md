@@ -4,4 +4,5 @@ rafa alghifari <br>
 <li>copy item</li>
 <li>menambah td aksi di tabel read</li>
 <li>menambah sinar di read php</li>
+<li>menambah edit php</li>
 </ol>
