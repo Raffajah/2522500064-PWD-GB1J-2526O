@@ -7,4 +7,5 @@ rafa alghifari <br>
 <li>menambah edit php</li>
 <li>menambah tampilan form lama yang dibaca dari cid</li>
 <li>menambah file update php</li>
+<li>menambah query UPDATE dan prepared statement</li>
 </ol>

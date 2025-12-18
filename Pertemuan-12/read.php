@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'koneksi.php';
 require 'fungsi.php';
 
@@ -9,7 +10,7 @@ $no = 1;
 
 <?php
 $sinar_sukses = $_SESSION['sinar_sukses'] ?? '';
-$sinar_eror = $_SESSION['sinar_error'] ?? '';
+$sinar_error = $_SESSION['sinar_error'] ?? '';
 unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
 ?>
   <?php if (!empty($sinar_sukses)): ?>

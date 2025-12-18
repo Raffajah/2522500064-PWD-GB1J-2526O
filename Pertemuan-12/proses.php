@@ -12,39 +12,38 @@ if ($_SERVER["REQUEST_METHOD"] !== "POST") {
 $nama  = bersihkan($_POST["txtNama"] ?? '');
 $email = bersihkan($_POST["txtEmail"] ?? '');
 $pesan = bersihkan($_POST["txtPesan"] ?? '');
+$captcha = bersihkan($_POST["captcha"] ?? '');
+$errors = [];
 
-$eror = [];
-
-$captcha = trim($_POST["captcha"] ?? '');
 
 if ($captcha === "") {
-    $eror[] = "Captcha harus diisi!";
-} elseif ($captcha != 5) {
-    $eror[] = "Jawaban captcha salah!";
+    $errors[] = "Captcha harus diisi!";
+} elseif ($captcha != 5 ) {
+    $errors[] = "Jawaban captcha salah!";
 }
 
 
 if ($nama === "") {
-    $eror[] = "Nama harus diisi!";
-    /*nama*/
+    $errors[] = "Nama harus diisi!";
+    
 }elseif (strlen($nama) < 3) {
-    $eror[] = "Nama minimal 3 karakter!";
+    $errors[] = "Nama minimal 3 karakter!";
 }
 
 if ($email === "") {
-    $eror[] = "Email harus diisi!";
+    $errors[] = "Email harus diisi!";
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $eror[] = "Format email tidak valid!";
+    $errors[] = "Format email tidak valid!";
 }
 if ($pesan === "") {
-    $eror[] = "Pesan harus diisi!"; 
-    /*pesan*/
+    $errors[] = "Pesan harus diisi!"; 
+    
 } elseif (strlen($pesan) < 10) {
-    $eror[] = "Pesan minimal 10 karakter!";
+    $errors[] = "Pesan minimal 10 karakter!";
 }
 
-if (!empty($eror)) {
-    $_SESSION["sinar_error"] = implode("<br>", $eror);
+if (!empty($errors)) {
+    $_SESSION["sinar_error"] = implode("<br>", $errors);
     $_SESSION["old"] = compact("nama", "email", "pesan");
     redirect_ke("index.php#contact");
     exit;
