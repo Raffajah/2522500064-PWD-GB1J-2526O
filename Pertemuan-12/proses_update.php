@@ -45,8 +45,7 @@ if ($pesan === '') {
 
 if ($captcha === '') {
   $errors[] = 'Pertanyaan wajib diisi.';
-}
-
+} 
 if (mb_strlen($nama) < 3) {
   $errors[] = 'Nama minimal 3 karakter.';
 }
@@ -58,6 +57,7 @@ if (mb_strlen($pesan) < 10) {
 if ($captcha != "6") {
   $errors[] = 'Jawaban captcha salah.';
 }
+
 
 
 if (!empty($errors)) {
@@ -75,7 +75,7 @@ if (!empty($errors)) {
 $stmt = mysqli_prepare(
   $conn,
   "UPDATE tbl_tamu
-   SET nama = ?, email = ?, pesan = ?
+   SET cnama = ?, cemail = ?, cpesan = ?
    WHERE cid = ?"
 );
 

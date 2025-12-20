@@ -8,4 +8,5 @@ rafa alghifari <br>
 <li>menambah tampilan form lama yang dibaca dari cid</li>
 <li>menambah file update php</li>
 <li>menambah query UPDATE dan prepared statement</li>
+<li>mencari kode salah rupa e beda kurang cnama pesan kek email</li>
 </ol>

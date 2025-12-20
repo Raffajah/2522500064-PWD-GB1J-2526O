@@ -16,26 +16,26 @@ $captcha = bersihkan($_POST["captcha"] ?? '');
 $errors = [];
 
 
-if ($captcha === "") {
+if ($captcha === '') {
     $errors[] = "Captcha harus diisi!";
-} elseif ($captcha != 5 ) {
+} elseif ($captcha != 6)  {
     $errors[] = "Jawaban captcha salah!";
 }
 
 
-if ($nama === "") {
+if ($nama === '') {
     $errors[] = "Nama harus diisi!";
     
 }elseif (strlen($nama) < 3) {
     $errors[] = "Nama minimal 3 karakter!";
 }
 
-if ($email === "") {
+if ($email === '') {
     $errors[] = "Email harus diisi!";
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors[] = "Format email tidak valid!";
 }
-if ($pesan === "") {
+if ($pesan === '') {
     $errors[] = "Pesan harus diisi!"; 
     
 } elseif (strlen($pesan) < 10) {

@@ -48,7 +48,7 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
         <td><?= htmlspecialchars($row['cnama']); ?></td>
         <td><?= htmlspecialchars($row['cemail']); ?></td>
         <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
-        <td><?= htmlspecialchars($row['dcreated_at']); ?></td>
+        <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
             
     </tr>
     <?php endwhile; ?>
