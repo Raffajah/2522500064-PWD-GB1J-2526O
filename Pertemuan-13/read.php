@@ -56,3 +56,5 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
     </tr>
     <?php endwhile; ?>
 </table>
+
+<script src="script.js"></script>
