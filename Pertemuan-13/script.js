@@ -174,20 +174,3 @@ window.addEventListener("resize", () => {
         if (target) alignErrorMessage(small, target);
     });
 });
-
-    
-    const successMessage = document.getElementById('success-message');
-    if (successMessage) {
-        setTimeout(() => {
-            successMessage.style.display = 'none';
-        }, 3000);
-    }
-
-    
-    const errorMessage = document.getElementById('error-message');
-    if (errorMessage) {
-        setTimeout(() => {
-            errorMessage.style.display = 'none';
-        }, 3000); 
-    }
-    
