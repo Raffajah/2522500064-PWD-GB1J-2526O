@@ -3,4 +3,5 @@ rafa alghifari <br>
 <ol>
 <li>copy item</li>
 <li>menambah tombol delete read.php</li>
+<li>menambah file delete php</li>
 </ol>
