@@ -14,13 +14,13 @@ $sinar_error = $_SESSION['sinar_error'] ?? '';
 unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
 ?>
   <?php if (!empty($sinar_sukses)): ?>
-          <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
+          <div id="success-message" style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
             <?= $sinar_sukses; ?>
           </div>
         <?php endif; ?>
 
         <?php if (!empty($sinar_error)): ?>
-          <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+          <div id="error-message" style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
             <?= $sinar_error; ?>
           </div>
         <?php endif; ?>
@@ -32,7 +32,6 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
 
         <th>No</th>
         <th>Aksi</th>
-        <th>Delete</th>
         <th>ID</th>
         <th>Nama</th>
         <th>Email</th>
