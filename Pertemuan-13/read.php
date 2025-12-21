@@ -32,6 +32,7 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
 
         <th>No</th>
         <th>Aksi</th>
+        <th>Delete</th>
         <th>ID</th>
         <th>Nama</th>
         <th>Email</th>
