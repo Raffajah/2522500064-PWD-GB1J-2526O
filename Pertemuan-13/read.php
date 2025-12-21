@@ -43,7 +43,10 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
     <?php while ($row = mysqli_fetch_assoc($q)): ?>
     <tr>
         <td><?= $no++; ?></td>
-        <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
+        <td>
+          <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
+          <a href="delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        </td>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
         <td><?= htmlspecialchars($row['cemail']); ?></td>
