@@ -14,6 +14,9 @@
   </head>
 
   <body>
+    <video autoplay muted loop id="background-video">
+      <source src="suguri.mp4" type="video/mp4">
+    </video>
     <header>
       <h1>Ini Header</h1>
       <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">

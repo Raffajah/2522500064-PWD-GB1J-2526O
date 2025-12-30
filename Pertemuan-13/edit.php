@@ -47,7 +47,9 @@ if (!empty($old)) {
     <title>Judul Halaman</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+ <video autoplay muted loop id="background-video">
+      <source src="suguri.mp4" type="video/mp4">
+    </video>
 <body>
     <header>
         <h1>Ini Header</h1>
