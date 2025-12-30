@@ -28,4 +28,5 @@ if (!$q) {
         echo tampilkanBiodata($fieldContact, $arrContact);
     }
 }
+mysqli_close($conn);
 ?>
