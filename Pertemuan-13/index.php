@@ -169,7 +169,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
+      <p style="font-family: Verdana, sans-serif;">&copy; 2025 Rafa Alghifari</p>
     </footer>
 
     <script src="script.js"></script>
