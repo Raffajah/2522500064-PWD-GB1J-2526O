@@ -6,4 +6,5 @@ rafa alghifari <br>
 <li>menambah file delete php</li>
 <li>menambah operasi delete ke dalam crud di read.php</li>
 <li>menambah jeda waktu dari pesan sukses dan gagal</li>
+<li>menambah back</li>
 </ol>
