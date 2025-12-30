@@ -13,43 +13,73 @@ $sinar_sukses = $_SESSION['sinar_sukses'] ?? '';
 $sinar_error = $_SESSION['sinar_error'] ?? '';
 unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
 ?>
-  <?php if (!empty($sinar_sukses)): ?>
-          <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
-            <?= $sinar_sukses; ?>
-          </div>
-        <?php endif; ?>
+<?php if (!empty($sinar_sukses)): ?>
+  <div id="success-message" style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px; display: none;">
+    <?= $sinar_sukses; ?>
+  </div>
+<?php endif; ?>
 
-        <?php if (!empty($sinar_error)): ?>
-          <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
-            <?= $sinar_error; ?>
-          </div>
-        <?php endif; ?>
+<?php if (!empty($sinar_error)): ?>
+  <div id="error-message" style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+    <?= $sinar_error; ?>
+  </div>
+<?php endif; ?>
 
+<div id="loading" style="text-align: center; padding: 20px; font-size: 18px; color: #003366;">
+  Memuat data...
+</div>
+<div id="content" style="display: none;">
 
-
-<table border="1" cellpadding="8" cellspacing="0">
+  <table border="1" cellpadding="8" cellspacing="0">
     <tr>
 
-        <th>No</th>
-        <th>Aksi</th>
-        <th>ID</th>
-        <th>Nama</th>
-        <th>Email</th>
-        <th>Pesan</th>
-        <th>Created At</th>
+      <th>No</th>
+      <th>Aksi</th>
+      <th>ID</th>
+      <th>Nama</th>
+      <th>Email</th>
+      <th>Pesan</th>
+      <th>Created At</th>
 
     </tr>
 
     <?php while ($row = mysqli_fetch_assoc($q)): ?>
-    <tr>
+      <tr>
         <td><?= $no++; ?></td>
-        <td><a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a></td>
+        <td>
+          <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
+          <a href="delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+        </td>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
         <td><?= htmlspecialchars($row['cemail']); ?></td>
         <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
         <td><?= formatTanggal(htmlspecialchars($row['dcreated_at'])); ?></td>
-            
-    </tr>
+
+      </tr>
     <?php endwhile; ?>
-</table>
+  </table>
+
+  <script>
+    setTimeout(() => {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }, 2000);
+
+    const successMessage = document.getElementById('success-message');
+    if (successMessage) {
+      setTimeout(() => {
+        successMessage.style.display = 'block';  // Tampilkan setelah 2 detik
+      }, 2000);
+      setTimeout(() => {
+        successMessage.style.display = 'none';  // Sembunyikan setelah 5 detik
+      }, 5000);
+    }
+
+    const errorMessage = document.getElementById('error-message');
+    if (errorMessage) {
+      setTimeout(() => {
+        errorMessage.style.display = 'none';
+      }, 3000);
+    }
+  </script>
