@@ -94,4 +94,23 @@ $arrBiodata = [
 ];
 $_SESSION["biodata"] = $arrBiodata;
 
+$username = mysqli_real_escape_string($conn, $_POST['username']);
+$password = md5($_POST['password']);
+
+$query = mysqli_query($conn, 
+    "SELECT * FROM users 
+     WHERE username='$username' AND password='$password'"
+);
+
+$data = mysqli_fetch_assoc($query);
+
+if ($data) {
+    $_SESSION['login'] = true;
+    $_SESSION['username'] = $data['username'];
+    header("Location: index.php");
+} else {
+    $_SESSION['error'] = "Username atau Password salah!";
+    header("Location: login.php");
+}
+
 header("location: index.php#about");

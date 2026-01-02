@@ -27,6 +27,7 @@
           <li><a href="#home">Beranda</a></li>
           <li><a href="#about">Tentang</a></li>
           <li><a href="#contact">Kontak</a></li>
+          <li><a href="https://www.youtube.com/">YouTube</a></li>
         </ul>
       </nav>
     </header>
@@ -164,7 +165,7 @@
 
 
         </form>
-        <br>
+       <br>
         <hr>
         <h2>Yang menghubungi kami</h2>
         <?php include 'read_inc.php'; ?>
@@ -172,7 +173,7 @@
     </main>
 
     <footer>
-      <p style="font-family: Verdana, sans-serif;">&copy; 2025 Rafa Alghifari</p>
+      <p style="font-family: Verdana, sans-serif;" , >&copy; 2026 Rafa Alghifari</p>
     </footer>
 
     <script src="script.js"></script>
