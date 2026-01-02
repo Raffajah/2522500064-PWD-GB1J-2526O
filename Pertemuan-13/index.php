@@ -27,7 +27,7 @@
           <li><a href="#home">Beranda</a></li>
           <li><a href="#about">Tentang</a></li>
           <li><a href="#contact">Kontak</a></li>
-          <li><a href="https://www.youtube.com/">YouTube</a></li>
+          <li><a href="profile.php">Profile</a></li>
         </ul>
       </nav>
     </header>
