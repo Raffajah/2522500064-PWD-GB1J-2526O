@@ -1,6 +1,7 @@
   <?php
   session_start();
   require_once __DIR__ . '/fungsi.php';
+  header ("Location: profile.php");
   ?>
 
   <!DOCTYPE html>

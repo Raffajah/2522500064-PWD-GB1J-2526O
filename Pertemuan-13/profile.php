@@ -38,7 +38,7 @@
         }
 
         .profile-card {
-            background: #fff;
+            background: #e3dedeff;
             border-radius: 15px;
             padding: 25px;
             text-align: center;
@@ -54,7 +54,6 @@
         }
 
         .profile-info {
-            text-align: left;
             margin-top: 15px;
         }
 
@@ -62,8 +61,65 @@
             margin: 6px 0;
             color: #444;
         }
+.glitch {
+    position: relative;
+    display: inline-block;
+    color: #000000ff;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    animation: glitchMain 2.5s infinite;
+    text-align: center;
+}
 
-        
+
+.glitch::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    color: #ff004c;
+    overflow: hidden;
+    text-align: center;
+    animation: glitchRed 2s infinite;
+}
+
+
+.glitch::after {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    color: #00eaff;
+    overflow: hidden;
+    text-align: center;
+    animation: glitchBlue 1.8s infinite;
+}
+
+
+@keyframes glitchMain {
+    0% { transform: none; }
+    20% { transform: skew(-2deg); }
+    40% { transform: skew(2deg); }
+    60% { transform: skew(-1deg); }
+    100% { transform: none; }
+}
+
+@keyframes glitchRed {
+    0% { clip-path: inset(0 0 80% 0); }
+    20% { clip-path: inset(10% 0 60% 0); }
+    40% { clip-path: inset(40% 0 30% 0); }
+    60% { clip-path: inset(60% 0 10% 0); }
+    100% { clip-path: inset(0 0 80% 0); }
+}
+
+@keyframes glitchBlue {
+    0% { clip-path: inset(80% 0 0 0); }
+    20% { clip-path: inset(60% 0 10% 0); }
+    40% { clip-path: inset(30% 0 40% 0); }
+    60% { clip-path: inset(10% 0 60% 0); }
+    100% { clip-path: inset(80% 0 0 0); }
+}
+
         .action {
             margin-top: 20px;
             display: flex;
@@ -100,7 +156,8 @@
         <div class="profile-card">
 
             <img src="image copy.png" alt="Foto Profile" class="profile-img">
-            <h2>Halo Nyaw >_<</h2>
+           
+            <h2 class="glitch" data-text="Halo Nyaw >_<">Halo Nyaw >_<</h2>
 
             <div class="profile-info">
                 <p><strong>Nama:</strong> Rafaa</p>
@@ -109,7 +166,7 @@
             </div>
 
             <div class="action">
-                <a href="index.php" class="btn">Kembali ke Beranda</a>
+                <a href="index.php" class="btn">Beranda</a>
                 <button class="btn" onclick="playVideo('jawa saiba momoi.mp4')">Klik Aku</button>
             </div>
 
