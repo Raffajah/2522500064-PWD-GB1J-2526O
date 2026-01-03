@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +20,7 @@
             align-items: center;
         }
 
-        
+
         #background-video {
             position: fixed;
             top: 0;
@@ -30,7 +31,7 @@
             z-index: -1;
         }
 
-        
+
         .profile-container {
             width: 100%;
             max-width: 360px;
@@ -42,7 +43,7 @@
             border-radius: 15px;
             padding: 25px;
             text-align: center;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
         }
 
         .profile-img {
@@ -61,64 +62,107 @@
             margin: 6px 0;
             color: #444;
         }
-.glitch {
-    position: relative;
-    display: inline-block;
-    color: #000000ff;
-    font-size: 22px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    animation: glitchMain 2.5s infinite;
-    text-align: center;
-}
+
+        .glitch {
+            position: relative;
+            display: inline-block;
+            color: #000000ff;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            animation: glitchMain 2.5s infinite;
+            text-align: center;
+        }
 
 
-.glitch::before {
-    content: attr(data-text);
-    position: absolute;
-    inset: 0;
-    color: #ff004c;
-    overflow: hidden;
-    text-align: center;
-    animation: glitchRed 2s infinite;
-}
+        .glitch::before {
+            content: attr(data-text);
+            position: absolute;
+            inset: 0;
+            color: #ff004c;
+            overflow: hidden;
+            text-align: center;
+            animation: glitchRed 2s infinite;
+        }
 
 
-.glitch::after {
-    content: attr(data-text);
-    position: absolute;
-    inset: 0;
-    color: #00eaff;
-    overflow: hidden;
-    text-align: center;
-    animation: glitchBlue 1.8s infinite;
-}
+        .glitch::after {
+            content: attr(data-text);
+            position: absolute;
+            inset: 0;
+            color: #00eaff;
+            overflow: hidden;
+            text-align: center;
+            animation: glitchBlue 1.8s infinite;
+        }
 
 
-@keyframes glitchMain {
-    0% { transform: none; }
-    20% { transform: skew(-2deg); }
-    40% { transform: skew(2deg); }
-    60% { transform: skew(-1deg); }
-    100% { transform: none; }
-}
+        @keyframes glitchMain {
+            0% {
+                transform: none;
+            }
 
-@keyframes glitchRed {
-    0% { clip-path: inset(0 0 80% 0); }
-    20% { clip-path: inset(10% 0 60% 0); }
-    40% { clip-path: inset(40% 0 30% 0); }
-    60% { clip-path: inset(60% 0 10% 0); }
-    100% { clip-path: inset(0 0 80% 0); }
-}
+            20% {
+                transform: skew(-2deg);
+            }
 
-@keyframes glitchBlue {
-    0% { clip-path: inset(80% 0 0 0); }
-    20% { clip-path: inset(60% 0 10% 0); }
-    40% { clip-path: inset(30% 0 40% 0); }
-    60% { clip-path: inset(10% 0 60% 0); }
-    100% { clip-path: inset(80% 0 0 0); }
-}
+            40% {
+                transform: skew(2deg);
+            }
+
+            60% {
+                transform: skew(-1deg);
+            }
+
+            100% {
+                transform: none;
+            }
+        }
+
+        @keyframes glitchRed {
+            0% {
+                clip-path: inset(0 0 80% 0);
+            }
+
+            20% {
+                clip-path: inset(10% 0 60% 0);
+            }
+
+            40% {
+                clip-path: inset(40% 0 30% 0);
+            }
+
+            60% {
+                clip-path: inset(60% 0 10% 0);
+            }
+
+            100% {
+                clip-path: inset(0 0 80% 0);
+            }
+        }
+
+        @keyframes glitchBlue {
+            0% {
+                clip-path: inset(80% 0 0 0);
+            }
+
+            20% {
+                clip-path: inset(60% 0 10% 0);
+            }
+
+            40% {
+                clip-path: inset(30% 0 40% 0);
+            }
+
+            60% {
+                clip-path: inset(10% 0 60% 0);
+            }
+
+            100% {
+                clip-path: inset(80% 0 0 0);
+            }
+        }
 
         .action {
             margin-top: 20px;
@@ -155,20 +199,20 @@
     <div class="profile-container">
         <div class="profile-card">
 
-            <img src="image copy.png" alt="Foto Profile" class="profile-img">
-           
-            <h2 class="glitch" data-text="Halo Nyaw >_<">Halo Nyaw >_<</h2>
+            <img src="image copy 2.png" alt="Foto Profile" class="profile-img">
 
-            <div class="profile-info">
-                <p><strong>Nama:</strong> Rafaa</p>
-                <p><strong>Email:</strong> rafaa@email.com</p>
-                <p><strong>Status:</strong> Aktif</p>
-            </div>
+            <h2 class="glitch" data-text="Halo Nyaw >_<">Halo Nyaw >_< </h2>
 
-            <div class="action">
-                <a href="index.php" class="btn">Beranda</a>
-                <button class="btn" onclick="playVideo('jawa saiba momoi.mp4')">Klik Aku</button>
-            </div>
+                    <div class="profile-info">
+                        <p><strong>Nama:</strong> Rafaa</p>
+                        <p><strong>Email:</strong> rafaa@email.com</p>
+                        <p><strong>Status:</strong> Aktif</p>
+                    </div>
+
+                    <div class="action">
+                        <a href="index.php" class="btn">Beranda</a>
+                        <button class="btn" onclick="playVideo('jawa saiba momoi.mp4')">Klik Aku</button>
+                    </div>
 
         </div>
     </div>
@@ -202,4 +246,5 @@
     </script>
 
 </body>
+
 </html>
