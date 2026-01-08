@@ -48,7 +48,7 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
         <td><?= $no++; ?></td>
         <td>
           <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-          <a href="delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+          <a href="proses_delete.php">Delete</a>
         </td>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
