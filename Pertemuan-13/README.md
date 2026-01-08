@@ -5,4 +5,5 @@ rafa alghifari <br>
 <li>menambah link delete dari read.php</li>
 <li>salin kode dari update ke delete</li>
 <li>menyesuaikan kode untuk proses delete</li>
+<li>menambah parameter cid delete</li>
 </ol>
