@@ -3,4 +3,5 @@ rafa alghifari <br>
 <ol>
 <li>copy item</li>
 <li>menambah link delete dari read.php</li>
+<li>salin kode dari update ke delete</li>
 </ol>
