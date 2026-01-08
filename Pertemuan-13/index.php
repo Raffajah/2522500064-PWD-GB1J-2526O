@@ -28,6 +28,7 @@
           <li><a href="#about">Tentang</a></li>
           <li><a href="#contact">Kontak</a></li>
           <li><a href="profile.php">Profile</a></li>
+          <li><a href="read.php">Buku Tamu</a></li>
         </ul>
       </nav>
     </header>
