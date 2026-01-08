@@ -7,4 +7,5 @@ rafa alghifari <br>
 <li>menyesuaikan kode untuk proses delete</li>
 <li>menambah parameter cid delete</li>
 <li>perbaiki cid delete</li>
+<li>kode konfimasi delete</li>
 </ol>

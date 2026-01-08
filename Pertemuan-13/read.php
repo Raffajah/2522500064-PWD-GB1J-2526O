@@ -48,7 +48,8 @@ unset($_SESSION['sinar_sukses'], $_SESSION['sinar_error']);
         <td><?= $no++; ?></td>
         <td>
           <a href="edit.php?cid=<?= (int)$row['cid']; ?>">Edit</a>
-          <a href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
+          <a onclick="return confirm('Yakin nek ngapus <?= htmlspecialchars($row['cnama']); ?> dengan pesan <?= htmlspecialchars($row['cpesan']); ?>?');"
+           href="proses_delete.php?cid=<?= (int)$row['cid']; ?>">Delete</a>
         </td>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
