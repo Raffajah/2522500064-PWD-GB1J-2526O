@@ -64,7 +64,7 @@ if (!empty($errors)) {
 }
 
 # menyiapkan query INSERT dengan prepared statement
-$sql = "INSERT INTO tbl_biodata_mahasiswa
+$sql = "INSERT INTO tbl_mahasiswa_sederhana
 (nim, nama_lengkap, tempat_lahir, tanggal_lahir, hobi, pasangan, pekerjaan, nama_ortu, nama_kakak, nama_adik)
 VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
@@ -87,7 +87,7 @@ mysqli_stmt_bind_param(
 if (mysqli_stmt_execute($stmt)) {
     unset($_SESSION['old_biodata']);
     $_SESSION['flash_sukses'] = 'Data biodata mahasiswa berhasil disimpan.';
-    redirect_ke('data_biodata.php'); // PRG
+    redirect_ke('index.php#biodata');
 } else {
     $_SESSION['old_biodata'] = [
         'nim'       => $nim,
