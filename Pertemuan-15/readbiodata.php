@@ -1,6 +1,7 @@
 <?php
 require 'koneksi.php';
 require_once 'fungsi.php';
+
 $fieldConfig = [
     "nim" => ["label" => "NIM:", "suffix" => ""],
     "nama" => ["label" => "Nama Lengkap:", "suffix" => " &#128526;"],
@@ -22,7 +23,7 @@ if (!$q) {
 } else {
     while ($row = mysqli_fetch_assoc($q)) {
         $arrBiodata = [
-          "nim"       => $row["bnim"],
+        "nim"       => $row["bnim"],
         "nama"      => $row["bnama_lengkap"],
         "tempat"    => $row["btempat_lahir"],
         "tanggal"   => $row["btanggal_lahir"],

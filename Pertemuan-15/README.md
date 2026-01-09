@@ -3,5 +3,5 @@
 <li>nambah wp</li>
 <li>nambah readbiodata</li>
 <li>nambah readbiodata perkembangan 1</li>
-
+<li>menambah proses biodata</li>
 </ol>
