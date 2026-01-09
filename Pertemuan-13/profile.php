@@ -181,6 +181,11 @@
             cursor: pointer;
             box-shadow: 0px 5px 15px rgba(21, 58, 131, 0.3);
             transition: all 0.3s ease;
+
+        }
+
+        .btnlari {
+            position: absolute;
         }
 
         .btn:hover {
@@ -210,7 +215,7 @@
                     </div>
 
                     <div class="action">
-                        <a href="index.php" class="btn">Beranda</a>
+                        <a href="index.php" class="btn btnlari">Beranda</a>
                         <button class="btn" onclick="playVideo('jawa saiba momoi.mp4')">Klik Aku</button>
                     </div>
 
@@ -243,7 +248,21 @@
                 sound.pause();
             };
         }
+
+        const button = document.querySelector('.btnlari');
+
+        button.addEventListener('mouseenter', () => {
+            const maxX = window.innerWidth - button.offsetWidth;
+            const maxY = window.innerHeight - button.offsetHeight;
+
+            const x = Math.random() * maxX;
+            const y = Math.random() * maxY;
+
+            button.style.left = x + 'px';
+            button.style.top = y + 'px';
+        });
     </script>
+
 
 </body>
 
