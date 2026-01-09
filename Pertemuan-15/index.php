@@ -13,7 +13,7 @@ require_once __DIR__ . '/fungsi.php';
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background: url('wallpaperflare.com_wallpaper\ \(8\).jpg') no-repeat center center fixed; background-size: cover;">
   <header>
     <h1>Ini Header</h1>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
