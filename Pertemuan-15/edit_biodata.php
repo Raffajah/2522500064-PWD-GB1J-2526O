@@ -112,7 +112,7 @@
     </div>
   <?php endif; ?>
 
-  <form action="proses_update_mahasiswa.php" method="POST">
+  <form action="proses_update_biodata.php" method="POST">
 
     <input type="hidden" name="id" value="<?= (int)$id; ?>">
 
@@ -125,11 +125,11 @@
     </label>
 
     <label>Tempat Lahir:
-      <input type="text" name="tempat" value="<?= htmlspecialchars($tempat_lahir); ?>" required>
+      <input type="text" name="tempat_lahir" value="<?= htmlspecialchars($tempat_lahir); ?>" required>
     </label>
 
     <label>Tanggal Lahir:
-      <input type="text" name="tanggal" value="<?= htmlspecialchars($tanggal_lahir); ?>" required>
+      <input type="text" name="tanggal_lahir" value="<?= htmlspecialchars($tanggal_lahir); ?>" required>
     </label>
 
     <label>Hobi:
@@ -145,15 +145,15 @@
     </label>
 
     <label>Nama Orang Tua:
-      <input type="text" name="ortu" value="<?= htmlspecialchars($nama_ortu); ?>" required>
+      <input type="text" name="nama_ortu" value="<?= htmlspecialchars($nama_ortu); ?>" required>
     </label>
 
     <label>Nama Kakak:
-      <input type="text" name="kakak" value="<?= htmlspecialchars($nama_kakak); ?>" required>
+      <input type="text" name="nama_kakak" value="<?= htmlspecialchars($nama_kakak); ?>" required>
     </label>
 
     <label>Nama Adik:
-      <input type="text" name="adik" value="<?= htmlspecialchars($nama_adik); ?>" required>
+      <input type="text" name="nama_adik" value="<?= htmlspecialchars($nama_adik); ?>" required>
     </label>
 
     <button type="submit">Update</button>
