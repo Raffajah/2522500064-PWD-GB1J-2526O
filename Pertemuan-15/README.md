@@ -6,4 +6,5 @@
 <li>menambah proses biodata</li>
 <li>menambah file biodata</li>
 <li>menambah file edit biodata</li>
+<li>menambah file proses update biodata</li>
 </ol>
