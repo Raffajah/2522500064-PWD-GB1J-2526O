@@ -53,7 +53,7 @@
       <td><?= $i++ ?></td>
       <td>
         <a href="edit_biodata.php?id=<?= (int)$row['id']; ?>">Edit</a>
-        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['bnama_lengkap']); ?>?')" href="proses_delete.php?id=<?= (int)$row['id']; ?>">Delete</a>
+        <a onclick="return confirm('Hapus <?= htmlspecialchars($row['bnama_lengkap']); ?>?')" href="proses_delete_biodata.php?id=<?= (int)$row['id']; ?>">Delete</a>
       </td>
       <td><?= $row['id']; ?></td>
       <td><?= htmlspecialchars($row['bnim']); ?></td>
