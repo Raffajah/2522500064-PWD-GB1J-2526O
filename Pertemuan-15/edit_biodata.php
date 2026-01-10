@@ -96,7 +96,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background: url('wallpaperflare.com_wallpaper\ \(9\).jpg') no-repeat center center fixed; background-size: cover;">
 <header>
   <h1>Ini Header</h1>
 </header>
