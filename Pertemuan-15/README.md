@@ -8,4 +8,6 @@
 <li>menambah file edit biodata</li>
 <li>menambah file proses update biodata</li>
 <li>menambah kode file proses update biodata</li>
+<li>menambah kode file proses update biodata</li>
+<li>menambah file proses delete</li>
 </ol>
