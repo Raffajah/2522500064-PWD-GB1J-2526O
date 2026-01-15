@@ -58,32 +58,32 @@
   }
 
   #Nilai awal (prefill form)
-  $nim  = $row['bnim'] ?? '';
-  $nama = $row['bnama_lengkap'] ?? '';
-  $tempat_lahir = $row['btempat_lahir'] ?? '';
-    $tanggal_lahir = $row['btanggal_lahir'] ?? '';
-    $hobi = $row['bhobi'] ?? '';
-    $pasangan = $row['bpasangan'] ?? '';
-    $pekerjaan = $row['bpekerjaan'] ?? '';
-    $nama_ortu = $row['bnama_ortu'] ?? '';
-    $nama_kakak = $row['bnama_kakak'] ?? '';
-    $nama_adik = $row['bnama_adik'] ?? '';
+  $txtNim  = $row['bnim'] ?? '';
+  $txtNmLengkap = $row['bnama_lengkap'] ?? '';
+  $txtT4Lhr = $row['btempat_lahir'] ?? '';
+    $txtTglLhr = $row['btanggal_lahir'] ?? '';
+    $txtHobi = $row['bhobi'] ?? '';
+    $txtPasangan = $row['bpasangan'] ?? '';
+    $txtKerja = $row['bpekerjaan'] ?? '';
+    $txtNmOrtu = $row['bnama_ortu'] ?? '';
+    $txtNmKakak = $row['bnama_kakak'] ?? '';
+    $txtNmAdik = $row['bnama_adik'] ?? '';
 
   #Ambil error dan nilai old input kalau ada
   $flash_error = $_SESSION['flash_error'] ?? '';
   $old_biodata = $_SESSION['old_biodata'] ?? [];
   unset($_SESSION['flash_error'], $_SESSION['old_biodata']);
   if (!empty($old_biodata)) {
-    $nim  = $old_biodata['nim'] ?? $nim;
-    $nama = $old_biodata['nama'] ?? $nama;
-    $tempat_lahir = $old_biodata['tempat_lahir'] ?? $tempat_lahir;
-    $tanggal_lahir = $old_biodata['tanggal_lahir'] ?? $tanggal_lahir;
-    $hobi = $old_biodata['hobi'] ?? $hobi;
-    $pasangan = $old_biodata['pasangan'] ?? $pasangan;
-    $pekerjaan = $old_biodata['pekerjaan'] ?? $pekerjaan;
-    $nama_ortu = $old_biodata['nama_ortu'] ?? $nama_ortu;
-    $nama_kakak = $old_biodata['nama_kakak'] ?? $nama_kakak;
-    $nama_adik = $old_biodata['nama_adik'] ?? $nama_adik;
+    $txtNim  = $old_biodata['txtNim'] ?? $txtNim;
+    $txtNmLengkap = $old_biodata['txtNmLengkap'] ?? $txtNmLengkap;
+    $txtT4Lhr = $old_biodata['txtT4Lhr'] ?? $txtT4Lhr;
+    $txtTglLhr = $old_biodata['txtTglLhr'] ?? $txtTglLhr;
+    $txtHobi = $old_biodata['txtHobi'] ?? $txtHobi;
+    $txtPasangan = $old_biodata['txtPasangan'] ?? $txtPasangan;
+    $txtKerja = $old_biodata['txtKerja'] ?? $txtKerja;
+    $txtNmOrtu = $old_biodata['txtNmOrtu'] ?? $txtNmOrtu;
+    $txtNmKakak = $old_biodata['txtNmKakak'] ?? $txtNmKakak;
+    $txtNmAdik = $old_biodata['txtNmAdik'] ?? $txtNmAdik;
   }
 ?>
 
@@ -118,80 +118,80 @@
 
     <label>
     <span>NIM</span>
-    <input type="text" name="nim"
+    <input type="text" name="txtNim"
       placeholder="Masukkan NIM"
-      value="<?= htmlspecialchars($nim); ?>"
+      value="<?= htmlspecialchars($txtNim); ?>"
       required>
   </label>
 
     <label>
     <span>Nama Lengkap</span>
-    <input type="text" name="nama"
+    <input type="text" name="txtNmLengkap"
       placeholder="Masukkan nama lengkap"
-      value="<?= htmlspecialchars($nama); ?>"
+      value="<?= htmlspecialchars($txtNmLengkap); ?>"
       required>
   </label>
 
   <label>
     <span>Tempat Lahir</span>
-    <input type="text" name="tempat_lahir"
+    <input type="text" name="txtT4Lhr"
       placeholder="Masukkan tempat lahir"
-      value="<?= htmlspecialchars($tempat_lahir); ?>"
+      value="<?= htmlspecialchars($txtT4Lhr); ?>"
       required>
   </label>
 
   <label>
     <span>Tanggal Lahir</span>
-    <input type="text" name="tanggal_lahir"
-      value="<?= htmlspecialchars($tanggal_lahir); ?>"
+    <input type="text" name="txtTglLhr"
+      value="<?= htmlspecialchars($txtTglLhr); ?>"
       required>
   </label>
 
   <label>
     <span>Hobi</span>
-    <input type="text" name="hobi"
+    <input type="text" name="txtHobi"
       placeholder="Masukkan hobi"
-      value="<?= htmlspecialchars($hobi); ?>"
+      value="<?= htmlspecialchars($txtHobi); ?>"
       required>
   </label>
 
   <label>
     <span>Pasangan</span>
-    <input type="text" name="pasangan"
+    <input type="text" name="txtPasangan"
       placeholder="Masukkan nama pasangan"
-      value="<?= htmlspecialchars($pasangan); ?>"
+      value="<?= htmlspecialchars($txtPasangan); ?>"
       required>
   </label>
 
   <label>
     <span>Pekerjaan</span>
-    <input type="text" name="pekerjaan"
+    <input type="text" name="txtKerja"
       placeholder="Masukkan pekerjaan"
-      value="<?= htmlspecialchars($pekerjaan); ?>"
+      value="<?= htmlspecialchars($txtKerja); ?>"
       required>
   </label>
 
   <label>
     <span>Nama Orang Tua</span>
-    <input type="text" name="nama_ortu"
+    <input type="text" name="txtNmOrtu"
       placeholder="Masukkan nama orang tua"
-      value="<?= htmlspecialchars($nama_ortu); ?>"
+      value="<?= htmlspecialchars($txtNmOrtu); ?>"
       required>
   </label>
 
   <label>
     <span>Nama Kakak</span>
-    <input type="text" name="nama_kakak"
+    <input type="text" name="txtNmKakak"
       placeholder="Masukkan nama kakak"
-      value="<?= htmlspecialchars($nama_kakak); ?>"
+      value="<?= htmlspecialchars($txtNmKakak); ?>"
       required>
   </label>
 
   <label>
     <span>Nama Adik</span>
-    <input type="text" name="nama_adik"
+    <input type="text" name="txtNmAdik"
       placeholder="Masukkan nama adik"
-      value="<?= htmlspecialchars($nama_adik); ?>"
+      value="<?= htmlspecialchars($txtNmAdik); ?>"
       required>
   </label>>
 

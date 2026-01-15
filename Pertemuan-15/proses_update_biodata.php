@@ -20,16 +20,16 @@
   }
 
   #ambil dan bersihkan (sanitasi) nilai dari form
-  $nim  = bersihkan($_POST['nim']  ?? '');
-  $nama  = bersihkan($_POST['nama']  ?? '');
-  $tempat = bersihkan($_POST['tempat_lahir'] ?? '');
-  $tanggal = bersihkan($_POST['tanggal_lahir'] ?? '');
-  $hobi = bersihkan($_POST['hobi'] ?? '');
-  $pasangan = bersihkan($_POST['pasangan'] ?? '');
-  $pekerjaan = bersihkan($_POST['pekerjaan'] ?? '');
-  $ortu = bersihkan($_POST['nama_ortu'] ?? '');
-  $kakak = bersihkan($_POST['nama_kakak'] ?? '');
-  $adik = bersihkan($_POST['nama_adik'] ?? '');
+  $nim  = bersihkan($_POST['txtNim']  ?? '');
+  $nama  = bersihkan($_POST['txtNmLengkap']  ?? '');
+  $tempat = bersihkan($_POST['txtT4Lhr'] ?? '');
+  $tanggal = bersihkan($_POST['txtTglLhr'] ?? '');
+  $hobi = bersihkan($_POST['txtHobi'] ?? '');
+  $pasangan = bersihkan($_POST['txtPasangan'] ?? '');
+  $pekerjaan = bersihkan($_POST['txtKerja'] ?? '');
+  $ortu = bersihkan($_POST['txtNmOrtu'] ?? '');
+  $kakak = bersihkan($_POST['txtNmKakak'] ?? '');
+  $adik = bersihkan($_POST['txtNmAdik'] ?? '');
 
   #Validasi sederhana
   $errors = []; #ini array untuk menampung semua error yang ada
@@ -78,16 +78,16 @@
   */
   if (!empty($errors)) {
     $_SESSION['old_biodata'] = [
-      'nim' => $nim,
-      'nama'  => $nama,
-      'tempat_lahir' => $tempat,
-      'tanggal_lahir' => $tanggal,
-      'hobi' => $hobi,
-      'pasangan' => $pasangan,
-      'pekerjaan' => $pekerjaan,
-      'nama_ortu' => $ortu,
-      'nama_kakak' => $kakak,
-      'nama_adik' => $adik
+      'txtNim' => $nim,
+      'txtNmLengkap'  => $nama,
+      'txtT4Lhr' => $tempat,
+      'txtTglLhr' => $tanggal,
+      'txtHobi' => $hobi,
+      'txtPasangan' => $pasangan,
+      'txtKerja' => $pekerjaan,
+      'txtNmOrtu' => $ortu,
+      'txtNmKakak' => $kakak,
+      'txtNmAdik' => $adik
     ];
 
     $_SESSION['flash_error'] = implode('<br>', $errors);
@@ -120,16 +120,16 @@
     redirect_ke('bacabiodata.php'); #pola PRG: kembali ke data dan exit()
   } else { #jika gagal, simpan kembali old value dan tampilkan error umum
     $_SESSION['old_biodata'] = [
-      'nim' => $nim,
-      'nama'  => $nama,
-      'tempat_lahir' => $tempat,
-      'tanggal_lahir' => $tanggal,
-      'hobi' => $hobi,
-      'pasangan' => $pasangan,
-      'pekerjaan' => $pekerjaan,
-      'nama_ortu' => $ortu,
-      'nama_kakak' => $kakak,
-      'nama_adik' => $adik
+      'txtNim' => $nim,
+      'txtNmLengkap'  => $nama,
+      'txtT4Lhr' => $tempat,
+      'txtTglLhr' => $tanggal,
+      'txtHobi' => $hobi,
+      'txtPasangan' => $pasangan,
+      'txtKerja' => $pekerjaan,
+      'txtNmOrtu' => $ortu,
+      'txtNmKakak' => $kakak,
+      'txtNmAdik' => $adik
     ];
     $_SESSION['flash_error'] = 'Data gagal diperbaharui. Silakan coba lagi.';
     redirect_ke('edit_biodata.php?id='. (int)$id);

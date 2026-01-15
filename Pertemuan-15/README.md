@@ -10,4 +10,5 @@
 <li>menambah kode file proses update biodata</li>
 <li>menambah kode file proses update biodata</li>
 <li>menambah file proses delete</li>
+<li>menambah perbaikan name... baru paham e</li>
 </ol>
