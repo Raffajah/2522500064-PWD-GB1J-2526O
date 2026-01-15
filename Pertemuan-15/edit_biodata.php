@@ -116,45 +116,84 @@
 
     <input type="hidden" name="id" value="<?= (int)$id; ?>">
 
-    <label>NIM:
-      <input type="text" name="nim" value="<?= htmlspecialchars($nim); ?>" required>
-    </label>
+    <label>
+    <span>NIM</span>
+    <input type="text" name="nim"
+      placeholder="Masukkan NIM"
+      value="<?= htmlspecialchars($nim); ?>"
+      required>
+  </label>
 
-    <label>Nama Lengkap:
-      <input type="text" name="nama" value="<?= htmlspecialchars($nama); ?>" required>
-    </label>
+    <label>
+    <span>Nama Lengkap</span>
+    <input type="text" name="nama"
+      placeholder="Masukkan nama lengkap"
+      value="<?= htmlspecialchars($nama); ?>"
+      required>
+  </label>
 
-    <label>Tempat Lahir:
-      <input type="text" name="tempat_lahir" value="<?= htmlspecialchars($tempat_lahir); ?>" required>
-    </label>
+  <label>
+    <span>Tempat Lahir</span>
+    <input type="text" name="tempat_lahir"
+      placeholder="Masukkan tempat lahir"
+      value="<?= htmlspecialchars($tempat_lahir); ?>"
+      required>
+  </label>
 
-    <label>Tanggal Lahir:
-      <input type="text" name="tanggal_lahir" value="<?= htmlspecialchars($tanggal_lahir); ?>" required>
-    </label>
+  <label>
+    <span>Tanggal Lahir</span>
+    <input type="text" name="tanggal_lahir"
+      value="<?= htmlspecialchars($tanggal_lahir); ?>"
+      required>
+  </label>
 
-    <label>Hobi:
-      <input type="text" name="hobi" value="<?= htmlspecialchars($hobi); ?>" required>
-    </label>
+  <label>
+    <span>Hobi</span>
+    <input type="text" name="hobi"
+      placeholder="Masukkan hobi"
+      value="<?= htmlspecialchars($hobi); ?>"
+      required>
+  </label>
 
-    <label>Pasangan:
-      <input type="text" name="pasangan" value="<?= htmlspecialchars($pasangan); ?>" required>
-    </label>
+  <label>
+    <span>Pasangan</span>
+    <input type="text" name="pasangan"
+      placeholder="Masukkan nama pasangan"
+      value="<?= htmlspecialchars($pasangan); ?>"
+      required>
+  </label>
 
-    <label>Pekerjaan:
-      <input type="text" name="pekerjaan" value="<?= htmlspecialchars($pekerjaan); ?>" required>
-    </label>
+  <label>
+    <span>Pekerjaan</span>
+    <input type="text" name="pekerjaan"
+      placeholder="Masukkan pekerjaan"
+      value="<?= htmlspecialchars($pekerjaan); ?>"
+      required>
+  </label>
 
-    <label>Nama Orang Tua:
-      <input type="text" name="nama_ortu" value="<?= htmlspecialchars($nama_ortu); ?>" required>
-    </label>
+  <label>
+    <span>Nama Orang Tua</span>
+    <input type="text" name="nama_ortu"
+      placeholder="Masukkan nama orang tua"
+      value="<?= htmlspecialchars($nama_ortu); ?>"
+      required>
+  </label>
 
-    <label>Nama Kakak:
-      <input type="text" name="nama_kakak" value="<?= htmlspecialchars($nama_kakak); ?>" required>
-    </label>
+  <label>
+    <span>Nama Kakak</span>
+    <input type="text" name="nama_kakak"
+      placeholder="Masukkan nama kakak"
+      value="<?= htmlspecialchars($nama_kakak); ?>"
+      required>
+  </label>
 
-    <label>Nama Adik:
-      <input type="text" name="nama_adik" value="<?= htmlspecialchars($nama_adik); ?>" required>
-    </label>
+  <label>
+    <span>Nama Adik</span>
+    <input type="text" name="nama_adik"
+      placeholder="Masukkan nama adik"
+      value="<?= htmlspecialchars($nama_adik); ?>"
+      required>
+  </label>>
 
     <button type="submit">Update</button>
     <button type="reset">Batal</button>
