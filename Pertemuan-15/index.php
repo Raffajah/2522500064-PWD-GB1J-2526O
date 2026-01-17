@@ -24,6 +24,8 @@ require_once __DIR__ . '/fungsi.php';
         <li><a href="#home">Beranda</a></li>
         <li><a href="#about">Tentang</a></li>
         <li><a href="#contact">Kontak</a></li>
+        <li><a href="bacabiodata.php">Buku Tamu Biodata</a></li>
+        <li><a href="read.php">Buku Tamu Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -37,7 +39,7 @@ require_once __DIR__ . '/fungsi.php';
       ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
-<?php
+    <?php
     $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
     $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
     $old_biodata          = $_SESSION['old_biodata'] ?? []; #untuk nilai lama form
@@ -47,7 +49,7 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="biodata">
       <h2>Biodata Sederhana Mahasiswa</h2>
-      
+
       <?php if (!empty($flash_sukses)): ?>
         <div style="padding:10px; margin-bottom:10px; background:#d4edda; color:#155724; border-radius:6px;">
           <?= $flash_sukses; ?>
@@ -162,8 +164,8 @@ require_once __DIR__ . '/fungsi.php';
             value="<?= isset($old['captcha']) ? htmlspecialchars($old['captcha']) : '' ?>">
         </label>
 
-        <button type=" submit">Kirim</button>
-          <button type="reset">Batal</button>
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
       </form>
 
       <br>

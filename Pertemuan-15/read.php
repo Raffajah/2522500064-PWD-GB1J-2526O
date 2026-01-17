@@ -30,7 +30,41 @@
           <?= $flash_error; ?>
         </div>
 <?php endif; ?>
+<style>
+  body {
+    margin: 0;
+    padding: 20px;
+    background-image: url("wallpaperflare.com_wallpaper (14).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Times New Roman', Times, serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 2px solid #0f27a0;
+    padding: 8px;
+    text-align: left;
+}
+  
+  a {
+    margin-right: 8px;
+    text-decoration: none;
+    color: #000000;
+  }
 
+   a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: #0f27a0;
+    color: aqua;
+  }
+</style>
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
     <th>No</th>
