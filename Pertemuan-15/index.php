@@ -26,6 +26,7 @@ require_once __DIR__ . '/fungsi.php';
         <li><a href="#contact">Kontak</a></li>
         <li><a href="bacabiodata.php">Buku Tamu Biodata</a></li>
         <li><a href="read.php">Buku Tamu Contact</a></li>
+        <li><a href="http://localhost/pwd/2522500064-PWD-GB1J-2526O/Pertemuan-13/">Link 13</a></li>
       </ul>
     </nav>
   </header>
