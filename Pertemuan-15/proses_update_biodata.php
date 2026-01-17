@@ -16,7 +16,7 @@
 
   if (!$id) {
     $_SESSION['flash_error'] = 'CID Tidak Valid.';
-    redirect_ke('bacabiodata.php?id='. (int)$id);
+    redirect_ke('bacabiodata.php');
   }
 
   #ambil dan bersihkan (sanitasi) nilai dari form

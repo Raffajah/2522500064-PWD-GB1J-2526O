@@ -58,32 +58,32 @@
   }
 
   #Nilai awal (prefill form)
-  $txtNim  = $row['bnim'] ?? '';
-  $txtNmLengkap = $row['bnama_lengkap'] ?? '';
-  $txtT4Lhr = $row['btempat_lahir'] ?? '';
-    $txtTglLhr = $row['btanggal_lahir'] ?? '';
-    $txtHobi = $row['bhobi'] ?? '';
-    $txtPasangan = $row['bpasangan'] ?? '';
-    $txtKerja = $row['bpekerjaan'] ?? '';
-    $txtNmOrtu = $row['bnama_ortu'] ?? '';
-    $txtNmKakak = $row['bnama_kakak'] ?? '';
-    $txtNmAdik = $row['bnama_adik'] ?? '';
+  $nim  = $row['bnim'] ?? '';
+  $nama = $row['bnama_lengkap'] ?? '';
+  $tempat = $row['btempat_lahir'] ?? '';
+    $tanggal = $row['btanggal_lahir'] ?? '';
+    $hobi = $row['bhobi'] ?? '';
+    $pasangan = $row['bpasangan'] ?? '';
+    $pekerjaan = $row['bpekerjaan'] ?? '';
+    $ortu = $row['bnama_ortu'] ?? '';
+    $kakak = $row['bnama_kakak'] ?? '';
+    $adik = $row['bnama_adik'] ?? '';
 
   #Ambil error dan nilai old input kalau ada
   $flash_error = $_SESSION['flash_error'] ?? '';
   $old_biodata = $_SESSION['old_biodata'] ?? [];
   unset($_SESSION['flash_error'], $_SESSION['old_biodata']);
   if (!empty($old_biodata)) {
-    $txtNim  = $old_biodata['txtNim'] ?? $txtNim;
-    $txtNmLengkap = $old_biodata['txtNmLengkap'] ?? $txtNmLengkap;
-    $txtT4Lhr = $old_biodata['txtT4Lhr'] ?? $txtT4Lhr;
-    $txtTglLhr = $old_biodata['txtTglLhr'] ?? $txtTglLhr;
-    $txtHobi = $old_biodata['txtHobi'] ?? $txtHobi;
-    $txtPasangan = $old_biodata['txtPasangan'] ?? $txtPasangan;
-    $txtKerja = $old_biodata['txtKerja'] ?? $txtKerja;
-    $txtNmOrtu = $old_biodata['txtNmOrtu'] ?? $txtNmOrtu;
-    $txtNmKakak = $old_biodata['txtNmKakak'] ?? $txtNmKakak;
-    $txtNmAdik = $old_biodata['txtNmAdik'] ?? $txtNmAdik;
+    $nim  = $old_biodata['txtNim'] ?? $nim;
+    $nama = $old_biodata['txtNmLengkap'] ?? $nama;
+    $tempat = $old_biodata['txtT4Lhr'] ?? $tempat;
+    $tanggal = $old_biodata['txtTglLhr'] ?? $tanggal;
+    $hobi = $old_biodata['txtHobi'] ?? $hobi;
+    $pasangan = $old_biodata['txtPasangan'] ?? $pasangan;
+    $pekerjaan = $old_biodata['txtKerja'] ?? $pekerjaan;
+    $ortu = $old_biodata['txtNmOrtu'] ?? $ortu;
+    $kakak = $old_biodata['txtNmKakak'] ?? $kakak;
+    $adik = $old_biodata['txtNmAdik'] ?? $adik;
   }
 ?>
 
@@ -120,7 +120,7 @@
     <span>NIM</span>
     <input type="text" name="txtNim"
       placeholder="Masukkan NIM"
-      value="<?= htmlspecialchars($txtNim); ?>"
+      value="<?= htmlspecialchars($nim); ?>"
       required>
   </label>
 
@@ -128,7 +128,7 @@
     <span>Nama Lengkap</span>
     <input type="text" name="txtNmLengkap"
       placeholder="Masukkan nama lengkap"
-      value="<?= htmlspecialchars($txtNmLengkap); ?>"
+      value="<?= htmlspecialchars($nama); ?>"
       required>
   </label>
 
@@ -136,14 +136,14 @@
     <span>Tempat Lahir</span>
     <input type="text" name="txtT4Lhr"
       placeholder="Masukkan tempat lahir"
-      value="<?= htmlspecialchars($txtT4Lhr); ?>"
+      value="<?= htmlspecialchars($tempat); ?>"
       required>
   </label>
 
   <label>
     <span>Tanggal Lahir</span>
     <input type="text" name="txtTglLhr"
-      value="<?= htmlspecialchars($txtTglLhr); ?>"
+      value="<?= htmlspecialchars($tanggal); ?>"
       required>
   </label>
 
@@ -151,7 +151,7 @@
     <span>Hobi</span>
     <input type="text" name="txtHobi"
       placeholder="Masukkan hobi"
-      value="<?= htmlspecialchars($txtHobi); ?>"
+      value="<?= htmlspecialchars($hobi); ?>"
       required>
   </label>
 
@@ -159,7 +159,7 @@
     <span>Pasangan</span>
     <input type="text" name="txtPasangan"
       placeholder="Masukkan nama pasangan"
-      value="<?= htmlspecialchars($txtPasangan); ?>"
+      value="<?= htmlspecialchars($pasangan); ?>"
       required>
   </label>
 
@@ -167,7 +167,7 @@
     <span>Pekerjaan</span>
     <input type="text" name="txtKerja"
       placeholder="Masukkan pekerjaan"
-      value="<?= htmlspecialchars($txtKerja); ?>"
+      value="<?= htmlspecialchars($pekerjaan); ?>"
       required>
   </label>
 
@@ -175,7 +175,7 @@
     <span>Nama Orang Tua</span>
     <input type="text" name="txtNmOrtu"
       placeholder="Masukkan nama orang tua"
-      value="<?= htmlspecialchars($txtNmOrtu); ?>"
+      value="<?= htmlspecialchars($ortu); ?>"
       required>
   </label>
 
@@ -183,7 +183,7 @@
     <span>Nama Kakak</span>
     <input type="text" name="txtNmKakak"
       placeholder="Masukkan nama kakak"
-      value="<?= htmlspecialchars($txtNmKakak); ?>"
+      value="<?= htmlspecialchars($kakak); ?>"
       required>
   </label>
 
@@ -191,9 +191,9 @@
     <span>Nama Adik</span>
     <input type="text" name="txtNmAdik"
       placeholder="Masukkan nama adik"
-      value="<?= htmlspecialchars($txtNmAdik); ?>"
+      value="<?= htmlspecialchars($adik); ?>"
       required>
-  </label>>
+  </label>
 
     <button type="submit">Update</button>
     <button type="reset">Batal</button>
