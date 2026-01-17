@@ -176,6 +176,15 @@ header li a:active {
   transform: translateY(-1px);
 }
 
+#contact input:focus,
+#biodata input:focus,
+#contact textarea:focus {
+  border-color: #003366;
+  background-color: transparent;
+  box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.25);
+  outline: none;
+}
+
 footer {
   background: #222;
   color: #aaa;
