@@ -29,6 +29,7 @@
           <li><a href="#contact">Kontak</a></li>
           <li><a href="profile.php">Profile</a></li>
           <li><a href="read.php">Buku Tamu</a></li>
+          <li><a href="http://localhost/pwd/2522500064-PWD-GB1J-2526O/Pertemuan-15/">Link 15</a></li>
         </ul>
       </nav>
     </header>
