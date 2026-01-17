@@ -17,6 +17,18 @@ header {
   text-align: center;
 }
 
+.jam {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: right;
+  color: #74bae5;
+  text-shadow:
+    0 0 5px  #0090ea,
+    0 0 10px #3da7e9,
+    0 0 20px rgba(132, 195, 234, 0.8);
+}
+
 header ul {
   display: flex;
   justify-content: center;

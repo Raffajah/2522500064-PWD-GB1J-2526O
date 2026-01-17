@@ -14,7 +14,8 @@ require_once __DIR__ . '/fungsi.php';
 </head>
 
 <body style="background: url('wallpaperflare.com_wallpaper\ \(11\).jpg') no-repeat center center fixed; background-size: cover;">
-  <header>
+<header>
+   <div class="jam" id="jam"></div> 
     <h1>Ini Header</h1>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
       &#9776;
@@ -34,10 +35,6 @@ require_once __DIR__ . '/fungsi.php';
   <main>
     <section id="home">
       <h2>Selamat Datang</h2>
-      <?php
-      echo "halo dunia!<br>";
-      echo "nama saya hadi";
-      ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
     <?php
