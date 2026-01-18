@@ -9,14 +9,14 @@ require_once __DIR__ . '/fungsi.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judul Halaman</title>
+  <title>R</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="background: url('wallpaperflare.com_wallpaper\ \(11\).jpg') no-repeat center center fixed; background-size: cover;">
 <header>
    <div class="jam" id="jam"></div> 
-    <h1>Ini Header</h1>
+    <h1 class="glitch" data-text="Rafa Alghifari">Rafa Alghifari</h1>
     <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
       &#9776;
     </button>
@@ -35,6 +35,7 @@ require_once __DIR__ . '/fungsi.php';
   <main>
     <section id="home">
       <h2>Selamat Datang</h2>
+      <a style="color: #003366; text-decoration: none;" href="cari.html">>_</a>
       <p>Ini contoh paragraf HTML.</p>
     </section>
     <?php

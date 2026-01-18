@@ -29,6 +29,57 @@ header {
     0 0 20px rgba(132, 195, 234, 0.8);
 }
 
+.glitch {
+  position: relative;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  color: #ffffff;
+  background: transparent;
+}
+
+.glitch::before {
+  left: 2px;
+  text-shadow: -2px 0 red;
+  animation: glitch-1 2s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  left: -2px;
+  text-shadow: -2px 0 cyan;
+  animation: glitch-2 1.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-1 {
+  0% { clip-path: inset(0 0 90% 0); }
+  20% { clip-path: inset(10% 0 70% 0); }
+  40% { clip-path: inset(40% 0 40% 0); }
+  60% { clip-path: inset(70% 0 20% 0); }
+  80% { clip-path: inset(85% 0 5% 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
+@keyframes glitch-2 {
+  0% { clip-path: inset(80% 0 0 0); }
+  20% { clip-path: inset(60% 0 20% 0); }
+  40% { clip-path: inset(30% 0 50% 0); }
+  60% { clip-path: inset(10% 0 70% 0); }
+  80% { clip-path: inset(0 0 90% 0); }
+  100% { clip-path: inset(0 0 0 0); }
+}
+
 header ul {
   display: flex;
   justify-content: center;
@@ -44,9 +95,12 @@ header li a {
 }
 
 header li a:hover {
-  background-color: #85020d;
+  background-color: #188bbc;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 header li a:focus {
@@ -57,7 +111,7 @@ header li a:focus {
 }
 
 header li a:active {
-  background-color: #cc04a1;
+  background-color: #0425cc;
   transform: translateY(1px);
 }
 
@@ -172,7 +226,7 @@ header li a:active {
 
 #contact button[type="reset"]:hover,
 #biodata button[type="reset"]:hover {
-  background-color: #cccccc;
+  background-color: #72b0ef;
   transform: translateY(-1px);
 }
 
