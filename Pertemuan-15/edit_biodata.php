@@ -69,7 +69,7 @@
     $kakak = $row['bnama_kakak'] ?? '';
     $adik = $row['bnama_adik'] ?? '';
 
-  #Ambil error dan nilai old input kalau ada
+
   $flash_error = $_SESSION['flash_error'] ?? '';
   $old_biodata = $_SESSION['old_biodata'] ?? [];
   unset($_SESSION['flash_error'], $_SESSION['old_biodata']);

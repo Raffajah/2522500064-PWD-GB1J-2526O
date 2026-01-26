@@ -24,9 +24,7 @@ require_once __DIR__ . '/fungsi.php';
       <ul>
         <li><a href="#home">Beranda</a></li>
         <li><a href="#about">Tentang</a></li>
-        <li><a href="#contact">Kontak</a></li>
-        <li><a href="bacabiodata.php">Buku Tamu Biodata</a></li>
-        <li><a href="read.php">Buku Tamu Contact</a></li>
+        <li><a href="#contact">Kontak</a></li>                                                          
         <li><a href="http://localhost/pwd/2522500064-PWD-GB1J-2526O/Pertemuan-13/">Link 13</a></li>
       </ul>
     </nav>
@@ -36,12 +34,18 @@ require_once __DIR__ . '/fungsi.php';
     <section id="home">
       <h2>Selamat Datang</h2>
       <a style="color: #003366; text-decoration: none;" href="cari.html">>_</a>
-      <p>Ini contoh paragraf HTML.</p>
+      <p>Saya Rafa Alghifari</p>
+      <p>Jika Anda ingin melihat hasil Form Yang Kalian Kirim kliok dibawah ini.</p>
+      <p>Buku Form Contact</p>
+      <a style="color: #003366; text-decoration: none;" href="read.php">Lihat Hasil Form</a>
+      <br>
+      <p>Buku Form Biodata</p>
+      <a style="color: #003366; text-decoration: none;" href="bacabiodata.php">Lihat Hasil Form</a>
     </section>
     <?php
     $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
     $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
-    $old_biodata          = $_SESSION['old_biodata'] ?? []; #untuk nilai lama form
+    $old_biodata  = $_SESSION['old_biodata'] ?? []; #untuk nilai lama form
 
     unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old_biodata']); #bersihkan 3 session ini
     ?>
@@ -175,7 +179,7 @@ require_once __DIR__ . '/fungsi.php';
   </main>
 
   <footer>
-    <p>&copy; 2025 Yohanes Setiawan Japriadi [0344300002]</p>
+    <p>&copy; Rafa Alghifari ajah</p>
   </footer>
 
   <script src="script.js"></script>

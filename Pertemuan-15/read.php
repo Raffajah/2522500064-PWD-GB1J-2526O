@@ -34,27 +34,41 @@
   body {
     margin: 0;
     padding: 20px;
-    background-image: url("wallpaperflare.com_wallpaper (14).jpg");
+    background-image: url("png-for-mesmerizer-v0-v826kvz0qtid1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family:'Times New Roman', Times, serif;
   }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-  }
-  th, td {
-    border: 2px solid #0f27a0;
-    padding: 8px;
-    text-align: left;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  background: #0f27a0;
+  color: #fff;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f1f5ff;
 }
   
   a {
     margin-right: 8px;
     text-decoration: none;
     color: #000000;
+    border: 2px solid #0f27a0;
   }
 
    a:hover {
@@ -64,6 +78,20 @@
     background-color: #0f27a0;
     color: aqua;
   }
+  .btn-back {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 16px;
+  background: #0f27a0;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-back:hover {
+  background: #091a70;
+}
+
 </style>
 <table border="1" cellpadding="8" cellspacing="0">
   <tr>
@@ -91,3 +119,5 @@
     </tr>
   <?php endwhile; ?>
 </table>
+<br>
+<button class="btn-back"><a href="index.php">Kembali ke Beranda</a></button>
